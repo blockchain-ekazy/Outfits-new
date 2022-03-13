@@ -13,7 +13,7 @@ const SpecialItems2 = () => {
     return (
         <div className="home_our_special Sliderrr">
             <div className="container-JT">
-                <div className="home_our_special_flex oldslider" role="toolbar">
+                <div className="home_our_special_flex newslider" role="toolbar">
                             <div className="home_our_special_inner" tabIndex="-1"
                                  role="option" aria-describedby="slick-slide00" style={{width: 282}}
                                  data-slick-index="0" aria-hidden="false">

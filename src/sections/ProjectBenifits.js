@@ -106,7 +106,7 @@ const ProjectBenefits = () => {
                                     </defs>
                                     <text fontSize="17">
                                         <textPath href="#circle">
-                                            GET YOUR BORED BUNNY
+                                            {/* GET YOUR BORED BUNNY */}
                                         </textPath>
                                     </text>
                                 </svg>

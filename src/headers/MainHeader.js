@@ -12,8 +12,9 @@ function MainHeader() {
                         <div className="header_menu header_menu1">
                             <ul>
                                 <li><a href="#home">HOME</a></li>
-                                <li><a href="#roadmap">ROADMAP</a></li>
-                                <li><a href="#benefits">BENEFITS &amp; UTILITIES</a></li>
+                            <li><a href="#intro">What in the World</a></li>
+
+                                <li><a href="#benefits">Claim Body</a></li>
                             </ul>
                         </div>
                         <div className="header_logo ">
@@ -23,7 +24,9 @@ function MainHeader() {
                         </div>
                         <div className="header_menu header_menu2">
                             <ul>
-                            <li><a href="#intro">What in the World</a></li>
+                            <li><a href="#roadmap">Mint an Outfit</a></li>
+                            
+                                <li><a href="#goals">Goals + Utility</a></li>
                                 <li><a href="#team">THE TEAM</a></li>
                                 <li><a href="#faq">FAQ’S</a></li>
                                 <li>

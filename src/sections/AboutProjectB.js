@@ -1,74 +1,53 @@
 import React from "react";
 
-import H1 from "../Components/Imgs/1x/Full/BodyA.png";
-import H2 from "../Components/Imgs/1x/Full/BodyB.png";
-import H3 from "../Components/Imgs/1x/Full/BodyC.png";
-import H4 from "../Components/Imgs/1x/Full/BodyA.png";
-import H1A from "../Components/Imgs/1x/Full/BodyD.png";
-import H2A from "../Components/Imgs/1x/Full/BodyC.png";
+import H1 from "../Components/Imgs/1x/DressA.png";
+import H2 from "../Components/Imgs/1x/DressB.png";
+import H3 from "../Components/Imgs/1x/DressC.png";
+import H4 from "../Components/Imgs/1x/DressD.png";
+import H1A from "../Components/Imgs/1x/DressF.png";
+import H2A from "../Components/Imgs/1x/DressG.png";
 import MCircle from "../Components/Imgs/Capture1-modified.png";
 import Circle1 from "../Components/Imgs/Capture2-modified.png";
 import Circle2 from "../Components/Imgs/Capture3-modified.png";
 import Circle3 from "../Components/Imgs/Capture4-modified.png";
 
 import Gif from "../Components/Imgs/BodyGif.gif";
+import SpecialItems from "./SpecialItemsS";
+import SpecialItems2 from "./SpecialItemsS2";
 
 const AboutProject = () => {
   return (
     <div className="home_what" id="intro">
       <div className="container ">
-        <div
-          className="home_welcome"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <h3>
-            Welcome to a project who is working hard to bring fashion to the
-            metaverse.
-          </h3>
-          <p>
-            Claim a body for your World of Women. Then mint an outfit for her to
-            wear.
-          </p>
-          {/* <a href=""
-                       className="btn"><span>VIEW ALL COLLECTION</span> <img src="img/btn_img3.png" title="" alt=""/></a> */}
-        </div>
+       
         <div className="what_flex row align-items-center">
           <div className="what_inner">
-            <div
-              className="what_inner_text visible-xs"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <h3>
-                <em>WHAT IS</em> world Of Outfits?
-              </h3>
-            </div>
+           
             <div
               className="what_inner_text"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="hidden-xs">
-                <em>WHAT IS</em>
-                <br />
-                world Of Outfits?
-              </h3>
+              
 
               <div className="text-center py-5">
-                <h1 className="text-white text-center">OWN a WoW?</h1>
+                <h1 className="text-white text-center">After you have a body then</h1>
 
                 <a href="#Mint" className="d-block mx-auto btn ">
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                    claim your body <br /> .02 eth
+                    Mint An Outfit<br /> .05 eth
                   </span>
                 </a>
               </div>
             </div>
           </div>
-          <div className="what_inner">
-            <div className="home_meet_team_slider">
+          <div className="what_inner" style={{position: "relative"}}>
+
+
+
+          
+          <div className="home_meet_team_slider">
               <div
                 className="home_meet_team_inner slick-slide slick-active"
                 tabIndex="-1"
@@ -172,6 +151,9 @@ const AboutProject = () => {
                 </div>
               </div>
             </div>
+
+
+            
           </div>
 
 

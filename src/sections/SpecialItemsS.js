@@ -11,109 +11,61 @@ import H3A from '../Components/Imgs/H3A.PNG'
 import H4A from '../Components/Imgs/H4A.PNG'
 
 const SpecialItems = () => {
-    //   $(document).ready(function() {
-    //     $('.home_our_special_flexB').slick({
-    //       dots: false,
-    //       arrows:false,
-    //       infinite: true,
-    //       //centerMode: true,
-    //       //centerPadding: '95px',
-    //       speed: 500,
-    //       slidesToShow: 5,
-    //       slidesToScroll: 1,
-    //       responsive: [{
-    //         breakpoint: 1199,
-    //         settings: {
-    //           slidesToShow: 4,
-    //           slidesToScroll: 1,
-    //           //centerMode: true,
-    //           //centerPadding: '50px',
-    //         }
-    //       },{
-    //         breakpoint: 991,
-    //         settings: {
-    //           slidesToShow: 4,
-    //           slidesToScroll: 1,
-    //           //centerMode: true,
-    //           //centerPadding: '50px',
-    //         }
-    //       },{
-    //         breakpoint: 768,
-    //         settings: {
-    //           slidesToShow: 3,
-    //           slidesToScroll: 1,
-    //           arrows:false,
-    //           dots: false,
-    //           //centerMode: false,
-    //           //centerPadding: '95px',
-    //         }
-    //       }, {
-    //         breakpoint: 480,
-    //         settings: {
-    //           slidesToShow: 1,
-    //           slidesToScroll: 1,
-    //           arrows:false,
-    //           dots: false,
-    //           //centerMode: false,
-    //           //centerPadding: '95px',
-    //         }
-    //       }]
-    //     });
-
-    //     $('.home_meet_team_slider').slick({
-    //       dots: false,
-    //       arrows:true,
-    //       infinite: true,
-    //       centerMode: true,
-    //       centerPadding: '95px',
-    //       speed: 500,
-    //       slidesToShow: 3,
-    //       slidesToScroll: 1,
-    //       responsive: [{
-    //         breakpoint: 1199,
-    //         settings: {
-    //           slidesToShow: 4,
-    //           slidesToScroll: 1,
-    //           centerMode: true,
-    //           centerPadding: '50px',
-    //         }
-    //       },{
-    //         breakpoint: 991,
-    //         settings: {
-    //           slidesToShow: 3,
-    //           slidesToScroll: 1,
-    //           centerMode: true,
-    //           centerPadding: '50px',
-    //         }
-    //       },{
-    //         breakpoint: 768,
-    //         settings: {
-    //           slidesToShow: 3,
-    //           slidesToScroll: 1,
-    //           arrows:false,
-    //           dots: true,
-    //           centerMode: false,
-    //           centerPadding: '95px',
-    //         }
-    //       }, {
-    //         breakpoint: 480,
-    //         settings: {
-    //           slidesToShow: 3,
-    //           slidesToScroll: 1,
-    //           arrows:false,
-    //           dots: true,
-    //           centerMode: false,
-    //           centerPadding: '95px',
-    //         }
-    //       }]
-    //     });
-    //   });
+      $(document).ready(function() {
+        $('.newslider').slick({
+          dots: false,
+          arrows:false,
+          infinite: true,
+          //centerMode: true,
+          //centerPadding: '95px',
+          speed: 500,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [{
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              //centerMode: true,
+              //centerPadding: '50px',
+            }
+          },{
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              //centerMode: true,
+              //centerPadding: '50px',
+            }
+          },{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              arrows:false,
+              dots: false,
+              //centerMode: false,
+              //centerPadding: '95px',
+            }
+          }, {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              arrows:false,
+              dots: false,
+              //centerMode: false,
+              //centerPadding: '95px',
+            }
+          }]
+        });
+      });
     return (
         <div className="home_our_special SliderA">
             <div className="container-JT">
              
 
-                <div className="home_our_special_flex oldslider tthh " role="toolbar">
+                <div className="home_our_special_flex newslider tthh " role="toolbar">
                     <div className="home_our_special_inner" tabIndex="-1"
                         role="option" aria-describedby="slick-slide00" style={{ width: 282 }}
                         data-slick-index="0" aria-hidden="false">
