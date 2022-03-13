@@ -101,7 +101,7 @@ const AboutProject = () => {
                 <a href="#Mint" className="d-block mx-auto btn ">
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                    Mint an Head <br /> .02 eth
+                    Mint a Head <br /> .02 eth
                   </span>
                 </a>
               </div>
