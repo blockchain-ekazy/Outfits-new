@@ -89,17 +89,17 @@ const AboutProject = () => {
               data-aos-duration="1000"
             >
               <h3 className="h5 hidden-xs">
-              <h1 className="text-white text-left dddd"> Mint a Head  </h1>
+              <h1 className="text-white text-left display-4 font-weight-bold"> <em>Mint</em> a Head  </h1>
                 Don't own a <em>WoW</em> and still want to be part of World of
-                Outfits
+                Outfits?
               
               </h3>
 
-              <div className="text-center py-5">
-              <h1 className="text-white text-center ddd">
+              <div className=" py-5">
+              <h1 className="text-white  text-sm-left text-center ddd">
                 You can then mint one of ourrs heads</h1>
 
-                <a href="#Mint" className="d-block mx-auto btn ">
+                <a href="#Mint" className=" mx-md-0 mx-auto  btn ">
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
                    .02 eth

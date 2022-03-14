@@ -34,14 +34,14 @@ const AboutProject = () => {
                 You Have A Body Then
               </h3>
 
-              <div className="text-center py-5">
+              <div className=" py-5">
                 
-                <h1 className="text-white text-center ddd">Mint An Outfit </h1>
+                <h1 className="text-white text-sm-left text-center ddd">Mint An Outfit </h1>
 
-                <a href="#Mint" className="d-block mx-auto btn py-2 mt-3" >
+                <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                     .05 eth
+                     .02 eth
                   </span>
                 </a>
               </div>
