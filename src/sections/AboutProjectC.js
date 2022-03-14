@@ -68,9 +68,9 @@ const AboutProject = () => {
 
   return (
     <div className="home_what" id="intro">
-      <div className="container ">
-        <div className="what_flex row align-items-center">
-          <div className="what_inner">
+      <div className="container pt-5">
+        <div className="what_flex row pt-5 align-items-center">
+          <div className="what_inner ">
             <div
               className="what_inner_text visible-xs"
               data-aos="fade-up"
@@ -89,19 +89,20 @@ const AboutProject = () => {
               data-aos-duration="1000"
             >
               <h3 className="h5 hidden-xs">
+              <h1 className="text-white text-left dddd"> Mint a Head  </h1>
                 Don't own a <em>WoW</em> and still want to be part of World of
                 Outfits
-                <br />
-                You can then mint one of ourrs heads
+              
               </h3>
 
               <div className="text-center py-5">
-                {/* <h1 className="text-white text-center">OWN a WoW?</h1> */}
+              <h1 className="text-white text-center ddd">
+                You can then mint one of ourrs heads</h1>
 
                 <a href="#Mint" className="d-block mx-auto btn ">
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                    Mint a Head <br /> .02 eth
+                   .02 eth
                   </span>
                 </a>
               </div>
@@ -111,32 +112,32 @@ const AboutProject = () => {
             {/* <base target="_blank" /> */}
             <ul className="UlAll d-block mx-auto">
               <li className="Licd">
-                <a href="#">
+                <a >
                   <img className="imgS" src={MCircle} />
                 </a>
               </li>
               <li  className="Licd">
-                <a href="#">
+                <a >
                   <img className="imgS" src={Circle1} />
                 </a>
               </li>
               <li  className="Licd">
-                <a href="#">
+                <a >
                   <img className="imgS" src={Circle2} />
                 </a>
               </li>
               <li  className="Licd">
-                <a href="#">
+                <a >
                   <img className="imgS" src={Circle3} />
                 </a>
               </li>
               <li  className="Licd">
-                <a href="#">
+                <a >
                   <img className="imgS" src={Circle1} />
                 </a>
               </li>
               <li className="Licd">
-                <a href="#">
+                <a >
                   <img className="imgS" src={Circle1} />
                 </a>
               </li>

@@ -41,7 +41,7 @@ const AboutProject = () => {
               data-aos-duration="1000"
             >
               <h3>
-                <em>WHAT IS</em> world Of Outfits?
+                <em>Own</em>a WOW?
               </h3>
             </div>
             <div
@@ -50,18 +50,19 @@ const AboutProject = () => {
               data-aos-duration="1000"
             >
               <h3 className="hidden-xs">
-                <em>WHAT IS</em>
-                <br />
-                world Of Outfits?
+                <em>Own </em>
+                {/* <br /> */}
+                a Wow?
               </h3>
 
               <div className="text-center py-5">
-                <h1 className="text-white text-center">OWN a WoW?</h1>
+                
+                <h1 className="text-white text-center ddd">Claim Your Body </h1>
 
-                <a href="#Mint" className="d-block mx-auto btn ">
+                <a href="#Mint" className="d-block mx-auto btn py-2 mt-3" >
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                    claim your body <br /> .02 eth
+                     .02 eth
                   </span>
                 </a>
               </div>

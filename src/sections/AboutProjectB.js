@@ -23,20 +23,25 @@ const AboutProject = () => {
         <div className="what_flex row align-items-center">
           <div className="what_inner">
            
-            <div
+          <div
               className="what_inner_text"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              
+              <h3 className="hidden-xs">
+                <em>After </em>
+                {/* <br /> */}
+                You Have A Body Then
+              </h3>
 
               <div className="text-center py-5">
-                <h1 className="text-white text-center">After you have a body then</h1>
+                
+                <h1 className="text-white text-center ddd">Mint An Outfit </h1>
 
-                <a href="#Mint" className="d-block mx-auto btn ">
+                <a href="#Mint" className="d-block mx-auto btn py-2 mt-3" >
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                    Mint An Outfit<br /> .05 eth
+                     .05 eth
                   </span>
                 </a>
               </div>

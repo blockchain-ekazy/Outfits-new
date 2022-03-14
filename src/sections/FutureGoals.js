@@ -47,18 +47,26 @@ const FutureGoals = () => {
               - 3d sewing your garment and sending to you! Ok
             </p>
 
-            <div className="community_inner">
-              <a href="#Body" className="btn my-3">
-                {/* <img src="img/btn_img2.png" title="" alt="" /> */}
-                <span>CLAIM BODY</span>
-              </a>
+            <div className="community_inner mt-4">
+              <div className="row">
+                <div className="col-12 col-md-3">
+            <button className="btn">CLAIM BODY </button>
+
+                </div>
+                <div className="col-12 col-md-3">
+                <button className="btn">MINT OUTFITS </button>
+
+                </div>
             </div>
-            <div className="community_inner">
+              {/* <a href="#Body" className="btn my-3">
+                <span></span>
+              </a> */}
+            </div>
+            {/* <div className="community_inner">
               <a href="#" className="btn btn2">
-                {/* <img src="img/icon6.png" title="" alt="" /> */}
                 <span>MINT OUTFITS</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
