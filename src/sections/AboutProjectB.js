@@ -36,6 +36,11 @@ const AboutProject = () => {
 
               <div className=" py-5">
                 
+              <h5 className="font-weight-bold text-white pb-4">
+                Once you have a body, You can then mint an outfit. 
+                Outfits have been designedby actual apparel/fashion designer 
+                </h5>
+
                 <h1 className="text-white text-sm-left text-center ddd">Mint An Outfit </h1>
 
                 <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >

@@ -56,6 +56,7 @@ const AboutProject = () => {
               </h3>
 
               <div className=" py-5">
+                <h5 className="font-weight-bold text-white">World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
                 
                 <h1 className="text-white text-sm-left text-center ddd">Claim Your Body </h1>
 
