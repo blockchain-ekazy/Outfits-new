@@ -8,15 +8,17 @@ const FutureGoals = () => {
   return (
     <div>
       <div className="container">
-        <div className="home_road_map_heading">
+      <div className="home_road_map_heading">
           <a id="goals"></a>
           <h3>
-            <em>FUTURE</em> GOALS
+            <em>Future </em>Goals + Utility
           </h3>
         </div>
 
         <div className="row align-items-center ">
+
           <div className="col-md-4 col-12 ">
+            
             <div className="">
               <img
                 src={Img}
@@ -28,57 +30,61 @@ const FutureGoals = () => {
             </div>
           </div>
           <div className="col-12 col-md-8">
-
-
-          <main>
-  <ol class="gradient-list">
-    <li> Allowing users to select whatever traits/outfit they desire
-                and minting that outfit onto their WoW</li>
-   
+     
+            <main>
+              <ol class="gradient-list">
+                <li>
+                  {" "}
+                  Allowing users to select whatever traits/outfit they desire
+                  and minting that outfit onto their WoW
+                </li>
 
                 <li>
-                 Working with emerging apparel and accessory designers to add
-                additional traits/layers into our system to allow for an
-                increasing amount of outfit options
-              </li>
-              <li>
-                 Ability to claim different body types so we create a more
-                diverse and reaslistic set of bodies
-              </li>
-              <li>
-                 Creating bodies and outfits for a number of other PFP
-                collections! (Boss Beauties and Lady Fame are next){" "}
-              </li>
-              <li>
-                 The ability to create 3d wearable versions of all outfits so
-                you can wear your minted outfit in the metaverse
-              </li>
-              <li>
-                 Flourishing as a creative fashion platform allowing end users
-                and designers to collab and create endless looks for the
-                metaverse and IRL
-              </li>
-              <li> 3d sewing your garment and sending to you! Ok</li>
-    
-  </ol>
-</main>
+                  Working with emerging apparel and accessory designers to add
+                  additional traits/layers into our system to allow for an
+                  increasing amount of outfit options
+                </li>
+                <li>
+                  Ability to claim different body types so we create a more
+                  diverse and reaslistic set of bodies
+                </li>
+                <li>
+                  Creating bodies and outfits for a number of other PFP
+                  collections! (Boss Beauties and Lady Fame are next){" "}
+                </li>
+                <li>
+                  The ability to create 3d wearable versions of all outfits so
+                  you can wear your minted outfit in the metaverse
+                </li>
+                <li>
+                  Flourishing as a creative fashion platform allowing end users
+                  and designers to collab and create endless looks for the
+                  metaverse and IRL
+                </li>
+                <li> 3d sewing your garment and sending to you! Ok</li>
+              </ol>
+            </main>
 
-
-
-            <ul class="s1 text-white ">
-             
-            </ul>
+            <ul class="s1 text-white "></ul>
 
             <div className="community_inner mt-4">
               <div className="row">
-                <div className="col-6 col-md-4 ">
-                  <button className="btn mx-md-0 mx-auto px-5 mb-3 ">
-                    CLAIM BODY{" "}
+                <div className="col-12 col-md-3 ">
+                  <button className="btn mx-md-0 mx-auto px-5  mb-3 ">
+                    CLAIM BODY <br/>
+                    .02 eth + gas
                   </button>
                 </div>
-                <div className="col-6 ">
+                <div className="col-12 col-md-3">
                   <button className="btn mx-md-0 px-5 mx-auto mb-3  ">
-                    MINT OUTFITS{" "}
+                  Mint Outfit <br/>
+                  .05 eth + gas
+                  </button>
+                </div>
+                <div className="col-12 col-md-6 ">
+                  <button className="btn mx-md-0 px-5 mx-auto mb-3  ">
+                  Don't own a WoW? Mint a WoO head and body here <br/>
+                  .05 eth + gas
                   </button>
                 </div>
               </div>

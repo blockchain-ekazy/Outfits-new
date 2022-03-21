@@ -50,19 +50,20 @@ const AboutProject = () => {
               data-aos-duration="1000"
             >
               <h3 className="hidden-xs">
-                <em>Own </em>
+                <em>What is</em>
                 {/* <br /> */}
-                a Wow?
+                world of outfits
               </h3>
 
-              <div className=" py-5">
-                <h5 className="font-weight-bold text-white">World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
+              <div className="py-5">
+                <h3 className=" font-weight-bold text-white " style={{fontSize : "40px "}}>own a wow?</h3>
                 
-                <h1 className="text-white text-sm-left text-center ddd">Claim Your Body </h1>
+                {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
 
                 <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
-                  <span>
+                  <span className="">
+                   Claim  Body<br/>
                      .02 eth
                   </span>
                 </a>
@@ -70,6 +71,8 @@ const AboutProject = () => {
             </div>
           </div>
           <div className="what_inner">
+          <h5 className="font-weight-bold text-white">World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
+            
             <div className="home_meet_team_slider">
               <div
                 className="home_meet_team_inner slick-slide slick-active"

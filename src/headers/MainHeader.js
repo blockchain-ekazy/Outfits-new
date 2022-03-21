@@ -12,14 +12,15 @@ function MainHeader() {
                         <div className="header_menu header_menu1">
                             <ul>
                                 <li><a href="#home">HOME</a></li>
-                            <li><a href="#intro">What in the World</a></li>
+                            <li><a href="#intro">What in the World Is This?</a></li>
 
                                 <li><a href="#benefits">Claim Body</a></li>
                             </ul>
                         </div>
                         <div className="header_logo ">
                             <a href="/" className=" heder_logo">
-                                <img src={OSeaImg} className=' p-0' width='150px' alt="logo"/>
+                                <h1 className='text-white py-5'>World of Outfits</h1>
+                                {/* <img src={OSeaImg} className=' p-0' width='150px' alt="logo"/> */}
                             </a>
                         </div>
                         <div className="header_menu header_menu2">

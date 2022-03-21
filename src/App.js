@@ -35,7 +35,7 @@ function App() {
       >
         <a id="Body"></a>
         <h3>OUR SPECIAL LEGENDARY COLLECTION</h3>
-        <p>DISCOVER OUR 10 LEGENDARY Outfits - THEY ARE THE RAREST</p>
+        <p>DISCOVER OUR 10 LEGENDARY Outfits - THEY ARE THE RAREST.<br/>If you land one of them, you will receive an actual wearable of this outfit for the metaverse that you can wear.</p>
       </div>
       <div className="" style={{ position: "relative" }}>
         <SpecialItems />

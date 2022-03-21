@@ -44,7 +44,7 @@ const Footer = () => {
                                 <div className="footer_position_inner_right">
                                     <h3>
                                         <em>MINT</em><br/>
-                                        18 MARCH
+                                        April 4
                                     </h3>
                                     <div className="footer_position_inner_ticket">
                                         <a href="https://opensea.io/collection/bored-bunny--nft" className="btn">
