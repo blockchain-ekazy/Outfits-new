@@ -12,7 +12,7 @@ function MainHeader() {
                         <div className="header_menu header_menu1">
                             <ul>
                                 <li><a href="#home">HOME</a></li>
-                            <li><a href="#intro">What in the World Is This?</a></li>
+                            <li><a href="#intro">What is WoO?</a></li>
 
                                 <li><a href="#benefits">Claim Body</a></li>
                             </ul>
@@ -25,11 +25,11 @@ function MainHeader() {
                         </div>
                         <div className="header_menu header_menu2">
                             <ul>
-                            <li><a href="#roadmap">Mint an Outfit</a></li>
+                            <li><a href="#roadmap">Mint Outfit</a></li>
                             
-                                <li><a href="#goals">Goals + Utility</a></li>
-                                <li><a href="#team">THE TEAM</a></li>
-                                <li><a href="#faq">FAQ’S</a></li>
+                                <li><a href="#goals">Mission+ Utility</a></li>
+                                <li><a href="#team">Allstar Team</a></li>
+                                <li><a href="#faq">FAQ</a></li>
                                 <li>
                                     {/* <a href="https://opensea.io/collection/bored-bunny--nft" className="btn">
                                         <img src={OSeaImg} className='Limg ' title="" alt=""/>

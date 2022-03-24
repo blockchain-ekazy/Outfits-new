@@ -16,7 +16,7 @@ const Footer = () => {
                             <div className="footer_position_inner">
                                 <div className="footer_position_inner_left">
                                     <h3>
-                                        <em>JOIN</em><br/>
+                                        <em>Join</em><br/>
                                         World Of Outfits
                                     </h3>
                                     <p>Become a member of the strongest and fast growing <br/> NFTs community.</p>
@@ -37,13 +37,13 @@ const Footer = () => {
                             </div>
                             <div className="footer_position_inner hidden-xs">
                                 <div className="footer_position_logo">
-                                    <a href="#home"><img src="img/unnamed.gif" className='Imggggg' width='250px'  title="" alt=""/></a>
+                                    <a href="#home"><img src="img/unnamed.gif" className='Imggggg w-50' width='250px'  title="" alt=""/></a>
                                 </div>
                             </div>
                             <div className="footer_position_inner">
                                 <div className="footer_position_inner_right">
                                     <h3>
-                                        <em>MINT</em><br/>
+                                        <em>Mint</em><br/>
                                         April 4
                                     </h3>
                                     <div className="footer_position_inner_ticket">

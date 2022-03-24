@@ -15,9 +15,9 @@ const MeetTeam = () => {
     return (
         <div className="home_meet_team" id="team">
             <div className="home_meet_team_container">
-                <div className="home_road_map_heading aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                    <h3><em>MEET </em> THE TEAM</h3>
-                    <p>The ones who are making everything happen.</p>
+                <div className="home_road_map_heading aos-init aos-animate pl-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h3><em>Meet </em> The Team</h3>
+                    <p>World of Outfits is a motley crew of blockchain technologists and fashion creatives. Meet our all-star team.</p>
                 </div>
                 <div className="home_meet_team_slider">
                             <div className="home_meet_team_inner slick-slide slick-active" tabIndex="-1" role="option"

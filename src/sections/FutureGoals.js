@@ -8,17 +8,15 @@ const FutureGoals = () => {
   return (
     <div>
       <div className="container">
-      <div className="home_road_map_heading">
+        <div className="home_road_map_heading">
           <a id="goals"></a>
           <h3>
-            <em>Future </em>Goals + Utility
+            <em>Our Mission </em> + Future Goals
           </h3>
         </div>
 
         <div className="row align-items-center ">
-
           <div className="col-md-4 col-12 ">
-            
             <div className="">
               <img
                 src={Img}
@@ -30,36 +28,56 @@ const FutureGoals = () => {
             </div>
           </div>
           <div className="col-12 col-md-8">
-     
             <main>
               <ol class="gradient-list">
                 <li>
                   {" "}
-                  Allowing users to select whatever traits/outfit they desire
-                  and minting that outfit onto their WoW
+                  FUTURE GOALS + UTILITY WE ARE CREATING MORE THAN JUST A 2D
+                  ILLUSTRATION OF A BODY AND OUTFIT. HERE IS WHAT WE ARE
+                  BUILDING FOR THE FUTURE: 1. ALLOWING FASHION AND ACCESSORY
+                  (HATS, BAGS, JEWELRY) DESIGNERS TO ADD THEIR DESIGNED ITEMS
+                  INTO THE WORLD OF OUTFITS FUTURE COLLECTIONS. WANT TO PUT A
+                  UNIQUE DRESS OR HANDBAG OR BRACELET THAT YOU DESIGNED INTO
+                  WoO, DM US TO COLLAB.
                 </li>
 
                 <li>
-                  Working with emerging apparel and accessory designers to add
-                  additional traits/layers into our system to allow for an
-                  increasing amount of outfit options
+                  USERS WILL BE ABLE TO ACTUALLY SELECT WHAT
+                  OUTFITS/TRAITS/LAYERS THEY WANT TO ADD TO THEIR BODY THUS
+                  CREATING A CUSTOM LOOK ONTO THEIR PFP.
                 </li>
                 <li>
-                  Ability to claim different body types so we create a more
-                  diverse and reaslistic set of bodies
+                  WE ARE WORKING ON BUILDING DIFFERENT BODY TYPES SO YOU CAN
+                  MINT DIFFERENT BODIES ONTO YOUR PFP. WE WANT A MORE DIVERSE
+                  AND REALISTIC SET OF BODIES FOR THE ENDLESS OUTFIT OPTIONS WE
+                  ARE CREATING. TO LAUNCH, WE HAVE CREATED ONE BODY TYPE AS IT
+                  BECOMES A BIT COMPLEX TO CREATE OUTFITS ON MULTIPLE BODY TYPES
+                  FOR THE INITIAL LAUNCH. BUT WE ARE WORKING ON IT!
                 </li>
                 <li>
-                  Creating bodies and outfits for a number of other PFP
-                  collections! (Boss Beauties and Lady Fame are next){" "}
+                  WE ARE BUILDING BODIES FOR A NUMBER OF POPULAR PFP
+                  COLLECTIONS. WE ARE WORKING ON BOSS BEAUTIES AND FAME LADY
+                  SQUAD NEXT. IS THERE ANOTHER PFP COLLECTION THAT YOU’D LIKE TO
+                  SEE BODIES AND OUTFITS FOR? DM US.
                 </li>
                 <li>
-                  The ability to create 3d wearable versions of all outfits so
-                  you can wear your minted outfit in the metaverse
+                  WoO is working with VR designers to create actual 3d wearable
+                  versions of the outfits in our collection. Ultimately the goal
+                  is for you to be able to mint a wearable version of the outfit
+                  you received or designed on your own, and then to mint a 3d
+                  wearable of the outfit. This will let you stunt in the
+                  metaverse in a custom designed garment for your PFP. 6. Our
+                  end goal is to create a creative fashion platform that allows
+                  end users and designers to collab and create endless looks for
+                  the metaverse and IRL.
                 </li>
                 <li>
-                  Flourishing as a creative fashion platform allowing end users
-                  and designers to collab and create endless looks for the
-                  metaverse and IRL
+                  . Our futuristic reach goal is to get to a place where we can
+                  take the digital blueprints of any of these outfits and send
+                  to a cut & sew factory partner to then create real life
+                  versions of any outfit that you dream up. We are not promising
+                  goal 7! But this is where are fashion vision and apparel
+                  dreams are headed. Welcome to the wild west of web3 fashion.
                 </li>
                 <li> 3d sewing your garment and sending to you! Ok</li>
               </ol>
@@ -71,22 +89,22 @@ const FutureGoals = () => {
               <div className="row">
                 <div className="col-12 col-md-3 ">
                   <button className="btn mx-md-0 mx-auto px-5  mb-3 ">
-                    CLAIM BODY <br/>
+                    CLAIM BODY <br />
                     .02 eth + gas
                   </button>
                 </div>
                 <div className="col-12 col-md-3">
                   <button className="btn mx-md-0 px-5 mx-auto mb-3  ">
-                  Mint Outfit <br/>
-                  .05 eth + gas
+                    Mint Outfit <br />
+                    .05 eth + gas
                   </button>
                 </div>
-                <div className="col-12 col-md-6 ">
+                {/* <div className="col-12 col-md-6 ">
                   <button className="btn mx-md-0 px-5 mx-auto mb-3  ">
                   Don't own a WoW? Mint a WoO head and body here <br/>
                   .05 eth + gas
                   </button>
-                </div>
+                </div> */}
               </div>
               {/* <a href="#Body" className="btn my-3">
                 <span></span>

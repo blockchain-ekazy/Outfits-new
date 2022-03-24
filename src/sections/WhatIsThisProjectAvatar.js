@@ -43,7 +43,7 @@ const WhatIsThisProjectAvatar = () => {
                     </div>
                 </div>
                 <div className="home_bored_text " data-aos="fade-up" data-aos-duration="1000">
-                    <h3 className=''> <span className='Worlddd'> WORLD </span>OF OUTFITS</h3>
+                    <h3 className=''> <span className='Worlddd'> World </span>Of Outfits</h3>
                 </div>
             </div>
         </div>

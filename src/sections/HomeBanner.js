@@ -1,8 +1,8 @@
 import React from "react";
 
-import ImgA from "../Components/Imgs/Capture1-modified.png";
-import ImgB from "../Components/Imgs/Capture2-modified.png";
-import ImgC from "../Components/Imgs/Capture3-modified.png";
+import ImgA from "../Components/Imgs/1x/Full BOdy/head1.png";
+import ImgB from "../Components/Imgs/1x/Full BOdy/head2.png";
+import ImgC from "../Components/Imgs/1x/Full BOdy/head3.png";
 
 const HomeBanner = () => {
   return (
@@ -30,16 +30,17 @@ const HomeBanner = () => {
           </h3>
           <p>To get started, first claim a body, then mint an outfit</p>
           <div className="btn_flex">
-            <div className="btn_flex_inner">
-              <a href="" className="btn py-2">
-                {/* <img src="img/btn_img2.png" title="" alt=""/> */}
-                Mint Outfits <br /> .05 eth{" "}
-              </a>
-            </div>
+        
             <div className="btn_flex_inner p-0">
               <a href="" className=" py-2 btn ">
                 {/* <img src="img/btn_img2.png" title="" alt=""/> */}
                 Claim Body <br /> Free + Gas{" "}
+              </a>
+            </div>
+            <div className="btn_flex_inner">
+              <a href="" className="btn py-2">
+                {/* <img src="img/btn_img2.png" title="" alt=""/> */}
+                Mint Outfits <br /> .05 eth + gas{" "}
               </a>
             </div>
           </div>
@@ -51,21 +52,21 @@ const HomeBanner = () => {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={ImgA} title="" alt="" />
+        <img src={ImgA} title="" alt="" className="imageA" />
       </div>
       <div
         className="banner_icon banner_icon2"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={ImgB} title="" alt="" />
+        <img src={ImgB} title="" alt="" className="imageA"  />
       </div>
       <div
         className="banner_icon banner_icon3"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={ImgC} title="" alt="" />
+        <img src={ImgC} title="" alt="" className="imageA" />
       </div>
     </div>
   );

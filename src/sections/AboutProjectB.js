@@ -18,7 +18,7 @@ import SpecialItems2 from "./SpecialItemsS2";
 
 const AboutProject = () => {
   return (
-    <div className="home_what" id="intro">
+    <div className="" id="intro">
       <div className="container ">
         <div className="what_flex row align-items-center">
           <div className="what_inner">
