@@ -3,6 +3,7 @@ import React from "react";
 import ImgA from "../Components/Imgs/1x/Full BOdy/head1.png";
 import ImgB from "../Components/Imgs/1x/Full BOdy/head2.png";
 import ImgC from "../Components/Imgs/1x/Full BOdy/head3.png";
+import ImgD from "../Components/Imgs/1x/Full BOdy/head4.PNG";
 
 const HomeBanner = () => {
   return (
@@ -48,26 +49,34 @@ const HomeBanner = () => {
       </div>
       <div className="scroll_down"></div>
       <div
-        className="banner_icon banner_icon1"
+        className="banner_icon banner_icon1 movingImgs"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
         <img src={ImgA} title="" alt="" className="imageA" />
       </div>
       <div
-        className="banner_icon banner_icon2"
+        className="banner_icon iijjhh "
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <img src={ImgC} title="" alt="" className="imageA" />
+      </div>
+      <div
+        className="banner_icon banner_icon2 movingImgs"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
         <img src={ImgB} title="" alt="" className="imageA"  />
       </div>
       <div
-        className="banner_icon banner_icon3"
+        className="banner_icon banner_icon3 iijjhh"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={ImgC} title="" alt="" className="imageA" />
+        <img src={ImgD} title="" alt="" className="imageA" />
       </div>
+      
     </div>
   );
 };

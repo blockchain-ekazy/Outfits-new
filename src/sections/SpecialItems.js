@@ -5,10 +5,10 @@ import H1 from '../Components/Imgs/1x/Full/BodyA.png'
 import H2 from '../Components/Imgs/1x/Full/BodyB.png'
 import H3 from '../Components/Imgs/1x/Full/BodyC.png'
 import H4 from '../Components/Imgs/1x/Full/BodyD.png'
-import H1A from '../Components/Imgs/H1A.PNG'
-import H2A from '../Components/Imgs/H2A.PNG'
-import H3A from '../Components/Imgs/H3A.PNG'
-import H4A from '../Components/Imgs/H4A.PNG'
+// import H1A from '../Components/Imgs/H1A.PNG'
+// import H2A from '../Components/Imgs/H2A.PNG'
+// import H3A from '../Components/Imgs/H3A.PNG'
+// import H4A from '../Components/Imgs/H4A.PNG'
 
 const SpecialItems = () => {
     //   $(document).ready(function() {

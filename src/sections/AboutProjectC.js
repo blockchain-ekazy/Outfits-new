@@ -80,7 +80,7 @@ const AboutProject = () => {
                 <em>Don't</em> own a WoW and still want to be part of World of
                 Outfits
                 <br />
-                You can then mint one of ourrs heads
+                You can then mint one of our heads connected to a body
               </h3>
             </div>
             <div
@@ -100,11 +100,11 @@ const AboutProject = () => {
               <h1 className="text-white  text-sm-left text-center ">
                 </h1>
 
-                <a href="#Mint" className=" mx-md-0 mx-auto  btn ">
+                <a href="#Mint" className=" mx-md-0 mx-auto  btn px-5">
                   {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
-                  Mint a Head <br/>
-                   .02 eth
+                  Mint a head and body <br/>
+                   .05 eth + Gas
                   </span>
                 </a>
               </div>

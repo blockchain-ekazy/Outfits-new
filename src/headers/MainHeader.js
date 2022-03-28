@@ -15,6 +15,8 @@ function MainHeader() {
                             <li><a href="#intro">What is WoO?</a></li>
 
                                 <li><a href="#benefits">Claim Body</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+
                             </ul>
                         </div>
                         <div className="header_logo ">
@@ -27,9 +29,8 @@ function MainHeader() {
                             <ul>
                             <li><a href="#roadmap">Mint Outfit</a></li>
                             
-                                <li><a href="#goals">Mission+ Utility</a></li>
+                                <li><a href="#goals">Mission+ Future</a></li>
                                 <li><a href="#team">Allstar Team</a></li>
-                                <li><a href="#faq">FAQ</a></li>
                                 <li>
                                     {/* <a href="https://opensea.io/collection/bored-bunny--nft" className="btn">
                                         <img src={OSeaImg} className='Limg ' title="" alt=""/>

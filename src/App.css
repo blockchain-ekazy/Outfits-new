@@ -1,3 +1,6 @@
+.fontpop{
+  font-family: "Poppins";
+}
 @font-face {
   font-family: "Poppins";
   src: url(../public/fonts/Poppins-Regular.ttf) format("truetype");
@@ -111,6 +114,30 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.iijjhh{
+  position: absolute;
+  left: 400px;
+  animation: floating 3s ease-in-out infinite;
+}
+
+.movingImgs { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+
+
 a,
 .btn,
 a:hover,
@@ -279,14 +306,15 @@ body {
   text-align: center;
 }
 .home_banner_text .btn {
-  font-size: 17px;
+  font-size: 21px;
   background-image: linear-gradient(to right, #51bbd4, #7362b0);
   border: none;
   border-radius: 50px;
   padding: 22px 44px;
   color: #fff;
   font-family: "Poppins";
-  font-weight: 700;
+  font-weight: 500;
+  letter-spacing: 3px;
   display: inline-block;
 }
 .btn_flex {
@@ -309,7 +337,7 @@ body {
   margin: 0 6px;
 }
 .home_banner_text .btn:hover {
-  background-image: linear-gradient(to right, #7362b0, #51bbd4);
+  background-image: linear-gradient(to right, #2b2055, #54d2ee);
 }
 .home_banner_text .btn2:hover {
   background-image: linear-gradient(
@@ -470,7 +498,8 @@ body {
 .what_inner_text h3 {
   font-size: 70px;
   color: #fff;
-  margin: 80px 0 40px;
+  /* margin: 80px 0 40px; */
+  align-items: center;
   font-family: "Rubik";
   font-weight: 700;
 }
@@ -3614,4 +3643,6 @@ ol.gradient-list > li + li {
   object-fit: contain;
 }
 .imageA {
-  background-image: linear-gradient(to left bottom, #2f0d16, #471226, #601839, #781e50, #90266a);} */
+  background-image: linear-gradient(to left bottom, #00515d, #005862, #005f67, #00666c, #006d70);
+  animation: floating 3s ease-in-out infinite;
+} */

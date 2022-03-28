@@ -34,7 +34,7 @@ function App() {
         data-aos-duration="1000"
       >
         <a id="Body"></a>
-        <h3>Our Special Legendary Collection</h3>
+        <h3>Our Legendary Collection</h3>
         <p >Discover Our 10 Legendary Outfits - They Are The Rarest.<br/>If you land one of them, you will receive an actual wearable of this outfit for the metaverse that you can wear.</p>
       </div>
       <div className="" style={{ position: "relative" }}>

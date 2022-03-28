@@ -2,7 +2,7 @@ import React from "react";
 
 import Img from "../Components/Imgs/FG.png";
 
-import ImgG from "../Components/Imgs/H2.PNG";
+// import ImgG from "../Components/Imgs/H2.PNG";
 
 const FutureGoals = () => {
   return (

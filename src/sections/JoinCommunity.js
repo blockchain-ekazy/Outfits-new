@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import ImgG from '../Components/Imgs/H2.PNG'
+import ImgG from '../Components/Imgs/H2.png'
 const JoinCommunity = () => {
     return (
     <div className="home_community">

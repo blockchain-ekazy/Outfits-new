@@ -17,7 +17,7 @@ const AboutProject = () => {
   return (
     <div className="home_what" id="intro">
       <div className="container ">
-        <div
+        {/* <div
           className="home_welcome"
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -30,9 +30,9 @@ const AboutProject = () => {
             Claim a body for your World of Women. Then mint an outfit for her to
             wear.
           </p>
-          {/* <a href=""
-                       className="btn"><span>VIEW ALL COLLECTION</span> <img src="img/btn_img3.png" title="" alt=""/></a> */}
-        </div>
+          <a href=""
+                       className="btn"><span>VIEW ALL COLLECTION</span> <img src="img/btn_img3.png" title="" alt=""/></a>
+        </div> */}
         <div className="what_flex row align-items-center">
           <div className="what_inner">
             <div
