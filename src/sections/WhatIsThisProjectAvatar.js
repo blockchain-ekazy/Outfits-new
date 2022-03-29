@@ -1,6 +1,6 @@
 import React from 'react';
 
-import H1 from '../Components/Imgs/H1.png'
+import H1 from '../Components/Imgs/H11.png'
 import H2 from '../Components/Imgs/H2.png'
 import H3 from '../Components/Imgs/H3.png'
 import H4 from '../Components/Imgs/H4.png'
