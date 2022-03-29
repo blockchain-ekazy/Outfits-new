@@ -1,13 +1,13 @@
 import React from 'react';
 
 import H1 from '../Components/Imgs/H11.png'
-import H2 from '../Components/Imgs/H2.png'
-import H3 from '../Components/Imgs/H3.png'
-import H4 from '../Components/Imgs/H4.png'
-import H1A from '../Components/Imgs/H1A.png'
-import H2A from '../Components/Imgs/H2A.png'
-import H3A from '../Components/Imgs/H3A.png'
-import H4A from '../Components/Imgs/H4A.png'
+import H2 from '../Components/Imgs/H22.png'
+import H3 from '../Components/Imgs/H33.png'
+import H4 from '../Components/Imgs/H44.png'
+import H1A from '../Components/Imgs/H55.png'
+import H2A from '../Components/Imgs/H66.png'
+import H3A from '../Components/Imgs/H77.png'
+import H4A from '../Components/Imgs/H88.png'
 
 
 const WhatIsThisProjectAvatar = () => {
