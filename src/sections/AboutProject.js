@@ -15,7 +15,7 @@ import Gif from "../Components/Imgs/BodyGif.gif";
 
 const AboutProject = () => {
   return (
-    <div className="home_what" id="intro">
+    <div className="home_what bg-overlay LightBlue" id="intro">
       <div className="container ">
         {/* <div
           className="home_welcome"
@@ -33,7 +33,7 @@ const AboutProject = () => {
           <a href=""
                        className="btn"><span>VIEW ALL COLLECTION</span> <img src="img/btn_img3.png" title="" alt=""/></a>
         </div> */}
-        <div className="what_flex row align-items-center">
+        <div className="what_flex row  align-items-center">
           <div className="what_inner">
             <div
               className="what_inner_text visible-xs"
@@ -50,28 +50,33 @@ const AboutProject = () => {
               data-aos-duration="1000"
             >
               <h3 className="hidden-xs">
-                <em>What is</em>
-                {/* <br /> */}
-                world of outfits
+                What is world of <em>Outfits</em>
               </h3>
+          <h5 className=" text-white"> World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
 
-              <div className="py-5">
-                <h3 className=" font-weight-bold text-white " style={{fontSize : "40px "}}>own a wow?</h3>
+
+                <h3 className=" font-weight-bold text-white " style={{fontSize : "40px "}}>own a <em>wow</em>?</h3>
                 
+
                 {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
 
-                <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
-                  {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
+                <div>
+              <button className="bottom-right mx-2 my-3 buttonPink">
+                {" "}
+                Claim Body <br /> Free + Gas
+              </button>
+            </div>
+
+                {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
+                  <img src="img/btn_img2.png" title="" alt=""/> 
                   <span className="">
                    Claim  Body<br/>
                      .02 eth
                   </span>
-                </a>
-              </div>
+                </a> */}
             </div>
           </div>
           <div className="what_inner">
-          <h5 className="font-weight-bold text-white">World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
             
             <div className="home_meet_team_slider">
               <div
@@ -87,7 +92,7 @@ const AboutProject = () => {
                   <img src={H1} title="" alt="" width="100%" />
                 </div>
                 <div className="home_meet_team_text">
-                  <h3>Visionary</h3>
+                  {/* <h3>Visionary</h3> */}
                   {/* <h4>CO-FOUNDER</h4> */}
                 </div>
               </div>
@@ -104,7 +109,7 @@ const AboutProject = () => {
                   <img src={H2} title="" alt="" width="100%" />
                 </div>
                 <div className="home_meet_team_text">
-                  <h3>Jelena</h3>
+                  {/* <h3>Jelena</h3> */}
                   {/* <h4>BLOCKCHAIN EXPERT</h4> */}
                 </div>
               </div>
@@ -121,7 +126,7 @@ const AboutProject = () => {
                   <img src={H3} title="" alt="" width="100%" />
                 </div>
                 <div className="home_meet_team_text">
-                  <h3>Dreamer</h3>
+                  {/* <h3>Dreamer</h3> */}
                   {/* <h4>DESIGNER</h4> */}
                 </div>
               </div>
@@ -138,7 +143,7 @@ const AboutProject = () => {
                   <img src={H4} title="" alt="" width="100%" />
                 </div>
                 <div className="home_meet_team_text">
-                  <h3>Collab</h3>
+                  {/* <h3>Collab</h3> */}
                   {/* <h4>DESIGNER</h4> */}
                 </div>
               </div>
@@ -155,8 +160,8 @@ const AboutProject = () => {
                   <img src={H1A} title="" alt="" width="100%" />
                 </div>
                 <div className="home_meet_team_text">
-                  <h3>sabirpro</h3>
-                  <h4>Developer</h4>
+                  {/* <h3>sabirpro</h3>
+                  <h4>Developer</h4> */}
                 </div>
               </div>
               <div
@@ -172,7 +177,7 @@ const AboutProject = () => {
                   <img src={H2A} title="" alt="" width="100%" />
                 </div>
                 <div className="home_meet_team_text">
-                  <h3>Robyan</h3>
+                  {/* <h3>Robyan</h3> */}
                   {/* <h4>CO-FOUNDER</h4> */}
                 </div>
               </div>

@@ -38,6 +38,84 @@
     <title>World Of OutFits</title>
   </head>
   <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
+    <style>
+      #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #0e73bb;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+    </style>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -60,14 +138,63 @@
     </script>
     <script>
       $(document).ready(function() {
+        $("#preloader").css("display","none");
         $('.oldslider').slick({
           dots: false,
-          arrows:false,
+          arrows:true,
           infinite: true,
-          //centerMode: true,
+          centerMode: true,
           //centerPadding: '95px',
           speed: 500,
-          slidesToShow: 5,
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          responsive: [{
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              //centerMode: true,
+              //centerPadding: '50px',
+            }
+          },{
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              //centerMode: true,
+              //centerPadding: '50px',
+            }
+          },{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              arrows:false,
+              dots: false,
+              //centerMode: false,
+              //centerPadding: '95px',
+            }
+          }, {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows:false,
+              dots: false,
+              //centerMode: false,
+              //centerPadding: '95px',
+            }
+          }]
+        });
+
+        $('.oldslider2').slick({
+          dots: false,
+          arrows:true,
+          infinite: true,
+          centerMode: true,
+          //centerPadding: '95px',
+          speed: 500,
+          slidesToShow: 6,
           slidesToScroll: 1,
           responsive: [{
             breakpoint: 1199,

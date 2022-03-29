@@ -1,6 +1,6 @@
 import React from "react";
 
-import H1 from "../Components/Imgs/Capture1-modified.png";
+import Div from "../Components/Imgs/1x/3.png";
 import H2 from "../Components/Imgs/1x/Full/BodyB.png";
 import H3 from "../Components/Imgs/1x/Full/BodyC.png";
 import H4 from "../Components/Imgs/1x/Full/BodyA.png";
@@ -67,11 +67,60 @@ const AboutProject = () => {
   //we're moving the elements by changing their position in the array
 
   return (
-    <div className="home_what" id="intro">
-      <div className="container pt-5">
-        <div className="what_flex row pt-5 align-items-center">
-          <div className="what_inner ">
+    <>
+    <div className="Div">
+      <img src={Div}></img>
+    </div>
+    <div className="home_what Pink pt-0" id="intro">
+      <div className="container">
+        <div className="what_flex  row pt-5 align-items-center">
+          <div className="what_inner">
             <div
+              className="what_inner_text visible-xs"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h3>
+                <em>Own</em>a WOW?
+              </h3>
+            </div>
+            <div
+              className="what_inner_text"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <h3 className="hidden-xs">
+              Don't own a <em>WoW </em>    and still want to be part of World of <em>Outfits?</em><br></br>         
+              </h3>
+              <h5 className=" text-white">
+              You can then mint one of ourrs heads {" "}
+               </h5>
+
+              {/* <h3
+                className=" font-weight-bold text-white "
+                style={{ fontSize: "40px " }}
+              >
+                own a <em>wow</em>?
+              </h3> */}
+
+              {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
+
+              <div>
+                <button className="bottom-right mx-2 my-3 buttonBlue">
+                  {" "}
+                  Mint An Outfit<br /> .02eth
+                </button>
+              </div>
+
+              {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
+                  <img src="img/btn_img2.png" title="" alt=""/> 
+                  <span className="">
+                   Claim  Body<br/>
+                     .02 eth
+                  </span>
+                </a> */}
+            </div>
+            {/* <div
               className="what_inner_text visible-xs"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -82,14 +131,13 @@ const AboutProject = () => {
                 <br />
                 You can then mint one of our heads connected to a body
               </h3>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="what_inner_text asasc"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
               <h3 className="h5 hidden-xs">
-              {/* <h1 className="text-white text-left display-4 font-weight-bold">  </h1> */}
                 Don't own a <em>WoW</em> and still want to be part of World of
                 Outfits?
               <br/><br/>
@@ -101,17 +149,15 @@ const AboutProject = () => {
                 </h1>
 
                 <a href="#Mint" className=" mx-md-0 mx-auto  btn px-5">
-                  {/* <img src="img/btn_img2.png" title="" alt=""/>  */}
                   <span>
                   Mint a head and body <br/>
                    .05 eth + Gas
                   </span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="what_inner align" >
-            {/* <base target="_blank" /> */}
             <ul className="UlAll d-block mx-auto">
               <li className="Licd">
                 <a >
@@ -150,6 +196,7 @@ const AboutProject = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

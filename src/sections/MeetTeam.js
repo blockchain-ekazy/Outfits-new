@@ -15,16 +15,16 @@ const MeetTeam = () => {
     return (
         <>
 
-        <div className="container">
-        <div className="home_road_map_heading aos-init aos-animate pl-5" data-aos="fade-up" data-aos-duration="1000">
+        <div className="container-fluid Pink py-5 bg-overlay">
+        <div className="home_road_map_heading aos-init aos-animate pl-5 text-center py-5    " data-aos="fade-up" data-aos-duration="1000">
                      <h3><em>Meet </em> The Team</h3>
                      <p>World of Outfits is a motley crew of blockchain technologists and fashion creatives. Meet our all-star team.</p>
                  </div>
             <div className="row align-items-center">
                 <div className="col-1"></div>
                 <div className="col-md-4">
-                    <div>
-                        <img className="p-4" src={H1} title="" alt="" width="100%"/>
+                    <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+                        <img className="ImgTeam" src={H1} title="" alt="" width="100%"/>
                     </div>
                 </div>
                 <div className="col-md-6 ">
@@ -38,8 +38,8 @@ const MeetTeam = () => {
             <div className="row align-items-center">
                 <div className="col-1"></div>
                 <div className="col-md-4">
-                    <div>
-                        <img className="p-4" src={H2} title="" alt="" width="100%"/>
+                    <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+                        <img className="" src={H2} title="" alt="" width="100%"/>
                     </div>
                 </div>
                 <div className="col-md-6 ">
@@ -53,8 +53,8 @@ const MeetTeam = () => {
             <div className="row align-items-center">
                 <div className="col-1"></div>
                 <div className="col-md-4">
-                    <div>
-                        <img className="p-4" src={H3} title="" alt="" width="100%"/>
+                    <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+                        <img className="" src={H3} title="" alt="" width="100%"/>
                     </div>
                 </div>
                 <div className="col-md-6 ">
@@ -68,8 +68,8 @@ const MeetTeam = () => {
             <div className="row align-items-center">
                 <div className="col-1"></div>
                 <div className="col-md-4">
-                    <div>
-                        <img  className="p-4" src={H4} title="" alt="" width="100%"/>
+                    <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+                        <img  className="" src={H4} title="" alt="" width="100%"/>
                     </div>
                 </div>
                 <div className="col-md-6 ">
@@ -83,8 +83,8 @@ const MeetTeam = () => {
             <div className="row align-items-center">
                 <div className="col-1"></div>
                 <div className="col-md-4">
-                    <div>
-                        <img  className="p-4"src={H1A} title="" alt="" width="100%"/>
+                    <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+                        <img  className=""src={H1A} title="" alt="" width="100%"/>
                     </div>
                 </div>
                 <div className="col-md-6 ">
@@ -98,8 +98,8 @@ const MeetTeam = () => {
             <div className="row align-items-center">
                 <div className="col-1"></div>
                 <div className="col-md-4">
-                    <div>
-                        <img  className="p-4"src={H2A} title="" alt="" width="100%"/>
+                    <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+                        <img  className=""src={H2A} title="" alt="" width="100%"/>
                     </div>
                 </div>
                 <div className="col-md-6 ">

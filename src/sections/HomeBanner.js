@@ -7,7 +7,11 @@ import ImgD from "../Components/Imgs/1x/Full BOdy/head4.PNG";
 
 const HomeBanner = () => {
   return (
-    <div className="home_banner HeadHome" id="home">
+    <div
+      className="home_banner HeadHome bg-overlay"
+      id="home"
+      style={{ backgroundColor: "#1e2d5b" }}
+    >
       <div className="hidden-xs">
         {/* <img src="img/banner_new.png" title="" alt="" width="100%"/> */}
       </div>
@@ -27,23 +31,33 @@ const HomeBanner = () => {
             metaverse
           </h5>
           <h3>
-            <em>World</em> OF Outfits
+          World OF   <em>Outfits</em>
           </h3>
           <p>To get started, first claim a body, then mint an outfit</p>
           <div className="btn_flex">
-        
-            <div className="btn_flex_inner p-0">
+            <div>
+              <button className="bottom-right mx-2 buttonBlue">
+                {" "}
+                Claim Body <br /> Free + Gas
+              </button>
+            </div>
+            {/* <div className="btn_flex_inner p-0">
               <a href="" className=" py-2 btn ">
-                {/* <img src="img/btn_img2.png" title="" alt=""/> */}
+                <img src="img/btn_img2.png" title="" alt=""/>
                 Claim Body <br /> Free + Gas{" "}
               </a>
+            </div> */}
+            <div>
+              <button className="bottom-right mx-2 buttonPink">
+                Mint Outfits <br /> .05 eth + gas{" "}
+              </button>
             </div>
-            <div className="btn_flex_inner">
+            {/* <div className="btn_flex_inner">
               <a href="" className="btn py-2">
-                {/* <img src="img/btn_img2.png" title="" alt=""/> */}
+                <img src="img/btn_img2.png" title="" alt=""/>
                 Mint Outfits <br /> .05 eth + gas{" "}
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -67,16 +81,15 @@ const HomeBanner = () => {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={ImgB} title="" alt="" className="imageA"  />
+        <img src={ImgB} title="" alt="" className="imageA" />
       </div>
       <div
         className="banner_icon banner_icon3 iijjhh"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src={ImgD} title="" alt="" className="imageA" />
+        {/* <img src={ImgD} title="" alt="" className="imageA" /> */}
       </div>
-      
     </div>
   );
 };

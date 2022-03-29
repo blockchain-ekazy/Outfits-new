@@ -21,7 +21,7 @@ const SpecialItems2 = () => {
                                     <img src={H1} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Golden Outfits</h3>
+                                    {/* <h3>Golden Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide slick-active" tabIndex="-1" role="option"
@@ -31,7 +31,7 @@ const SpecialItems2 = () => {
                                     <img src={H2} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Western Outfits</h3>
+                                    {/* <h3>Western Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide slick-active" tabIndex="-1" role="option"
@@ -41,7 +41,7 @@ const SpecialItems2 = () => {
                                     <img src={H3} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Viking Outfits</h3>
+                                    {/* <h3>Viking Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide slick-active" tabIndex="-1" role="option"
@@ -51,7 +51,7 @@ const SpecialItems2 = () => {
                                     <img src={H4} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Knight Outfits</h3>
+                                    {/* <h3>Knight Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide slick-active" tabIndex="-1" role="option"
@@ -61,7 +61,7 @@ const SpecialItems2 = () => {
                                     <img src={H5} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>OG Gold Outfits</h3>
+                                    {/* <h3>OG Gold Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide" tabIndex="-1" role="option"
@@ -71,7 +71,7 @@ const SpecialItems2 = () => {
                                     <img src={H6} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Pilot Outfits</h3>
+                                    {/* <h3>Pilot Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide" tabIndex="-1" role="option"
@@ -81,7 +81,7 @@ const SpecialItems2 = () => {
                                     <img src={H7} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Santa Gold Outfits</h3>
+                                    {/* <h3>Santa Gold Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide" tabIndex="-1" role="option"
@@ -91,7 +91,7 @@ const SpecialItems2 = () => {
                                     <img src={H2} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Don Outfits</h3>
+                                    {/* <h3>Don Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide" tabIndex="-1" role="option"
@@ -101,7 +101,7 @@ const SpecialItems2 = () => {
                                     <img src={H1} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Sage Outfits</h3>
+                                    {/* <h3>Sage Outfits</h3> */}
                                 </div>
                             </div>
                             <div className="home_our_special_inner slick-slide" tabIndex="-1" role="option"
@@ -111,7 +111,7 @@ const SpecialItems2 = () => {
                                     <img src={H2} title="" alt=""/>
                                 </div>
                                 <div className="home_our_special_text">
-                                    <h3>Prince Outfits</h3>
+                                    {/* <h3>Prince Outfits</h3> */}
                                 </div>
                             </div>
                         </div>

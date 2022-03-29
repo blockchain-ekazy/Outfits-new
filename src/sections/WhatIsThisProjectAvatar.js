@@ -12,30 +12,42 @@ import H4A from '../Components/Imgs/H88.png'
 
 const WhatIsThisProjectAvatar = () => {
     return (
-        <div className="home_bored_bunny pl-5 ml-5">
+        <div className="home_bored_bunny ">
             <div className="home_bored_bunny_max">
-                <div className="home_bored_bunny_flex">
-                    <div className="home_bored_bunny_inner">
+                <div className="home_bored_bunny_flex HoverImgs text-center ">
+                    <div className="home_bored_bunny_inner LightBlue">
                         <div className="home_bored_bunny_img">
                             <img src={H1} title="" alt="" width="50%" className="hover_hide"/>
                                 <img src={H1A} title="" alt="" width="50%" className="hover_show"/>
                         </div>
                     </div>
-                    <div className="home_bored_bunny_inner">
+                    <div className="home_bored_bunny_inner Blue">
                         <div className="home_bored_bunny_img">
 
                                 <img src={H3} title="" alt="" width="50%" className="hover_hide"/>
                                 <img src={H2} title="" alt="" width="50%" className="hover_show"/>
                         </div>
                     </div>
-                    <div className="home_bored_bunny_inner">
+                    <div className="home_bored_bunny_inner LightBlue">
                         <div className="home_bored_bunny_img">
                             
                         <img src={H3A} title="" alt="" width="50%" className="hover_hide"/>
                                 <img src={H2A} title="" alt="" width="50%" className="hover_show"/>
                         </div>
                     </div>
-                    <div className="home_bored_bunny_inner">
+                    <div className="home_bored_bunny_inner Blue">
+                        <div className="home_bored_bunny_img">
+                            <img src={H4} title="" alt="" width="50%" className="hover_hide"/>
+                                <img src={H4A} title="" alt="" width="50%" className="hover_show"/>
+                        </div>
+                    </div>
+                    <div className="home_bored_bunny_inner LightBlue">
+                        <div className="home_bored_bunny_img">
+                            <img src={H1} title="" alt="" width="50%" className="hover_hide"/>
+                                <img src={H3} title="" alt="" width="50%" className="hover_show"/>
+                        </div>
+                    </div>
+                    <div className="home_bored_bunny_inner Blue">
                         <div className="home_bored_bunny_img">
                             <img src={H4} title="" alt="" width="50%" className="hover_hide"/>
                                 <img src={H4A} title="" alt="" width="50%" className="hover_show"/>

@@ -1,12 +1,17 @@
 import { colors } from "debug/src/browser";
 import React from "react";
 
+import Div from '../Components/Imgs/1x/5.png'
+
 const FAQ = () => {
   return (
-    <div className="home_faq" id="faq">
+    <>
+    
+    
+    <div className="home_faq LightBlue mt-0 " id="faq">
       <div className="container">
-        <div className="home_faq_max py-5 my-5">
-          <div className="home_road_map_heading">
+        <div className="home_faq_max py-5">
+          <div className="home_road_map_heading text-center">
             <h3>
               FAQ<em>s</em>
             </h3>
@@ -117,6 +122,11 @@ const FAQ = () => {
         </div>
       </div>
     </div>
+    <div className="Divend">
+    <img className="w-100" src={Div}></img>
+    </div>
+    </>
+
   );
 };
 export default FAQ;
