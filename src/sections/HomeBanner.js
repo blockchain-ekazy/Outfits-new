@@ -18,7 +18,7 @@ const HomeBanner = () => {
       <div className="visible-xs">
         {/* <img src="img/mob_banner.png" title="" alt="" width="100%"/> */}
       </div>
-      <div className="home_banner_position pt-5 mt-5">
+      <div className="home_banner_position pt-5 mt-md-5">
         <a id="Mint"></a>
 
         <div
@@ -36,7 +36,7 @@ const HomeBanner = () => {
           <p>To get started, first claim a body, then mint an outfit</p>
           <div className="btn_flex">
             <div>
-              <button className="bottom-right mx-2 buttonBlue">
+              <button className="bottom-right mx-2 buttonBlue my-2">
                 {" "}
                 Claim Body <br /> Free + Gas
               </button>
@@ -70,26 +70,26 @@ const HomeBanner = () => {
         <img src={ImgA} title="" alt="" className="imageA" />
       </div>
       <div
-        className="banner_icon iijjhh "
+        className="banner_icon banner_icon2 movingImgs "
         data-aos="fade-left"
         data-aos-duration="1000"
       >
         <img src={ImgC} title="" alt="" className="imageA" />
       </div>
       <div
-        className="banner_icon banner_icon2 movingImgs"
+        className="banner_icon banner_icon3 movingImgs"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
         <img src={ImgB} title="" alt="" className="imageA" />
       </div>
-      <div
+      {/* <div
         className="banner_icon banner_icon3 iijjhh"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        {/* <img src={ImgD} title="" alt="" className="imageA" /> */}
-      </div>
+        <img src={ImgD} title="" alt="" className="imageA" />
+      </div> */}
     </div>
   );
 };

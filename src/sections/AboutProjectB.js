@@ -36,7 +36,7 @@ const AboutProject = () => {
                        className="btn"><span>VIEW ALL COLLECTION</span> <img src="img/btn_img3.png" title="" alt=""/></a>
         </div> */}
         <div className="what_flex row  align-items-center">
-          <div className="what_inner">
+          <div className="what_inner ">
             <div className="home_meet_team_slider">
               <div
                 className="home_meet_team_inner slick-slide slick-active"
@@ -142,7 +142,7 @@ const AboutProject = () => {
               </div>
             </div>
           </div>
-          <div className="what_inner">
+          <div className="what_inner text-center text-sm-left">
             <div
               className="what_inner_text visible-xs"
               data-aos="fade-up"

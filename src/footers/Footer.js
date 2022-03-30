@@ -64,7 +64,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="footer_position_inner">
+          <div className="footer_position_inner text-center text-sm-left">
             <div className="footer_position_inner_right">
               <h3>
                 <em>Mint</em>

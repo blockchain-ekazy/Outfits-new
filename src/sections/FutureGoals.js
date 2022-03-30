@@ -20,7 +20,7 @@ const FutureGoals = () => {
           <div className="col-md-4">
             <img
               src={Img}
-              className="d-block m-auto"
+              className=" m-auto d-none d-sm-block"
               width="200px"
               title=""
               alt=""
@@ -38,7 +38,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>One</strong>
                   </h3>
-                  <p className="p-0 m-0">
+                  <p className="p-2 m-0">
                     {/* <strong>Schwerpunkt: Frontend-Entwicklung</strong>
                         <br /> */}
                     FUTURE GOALS + UTILITY WE ARE CREATING MORE THAN JUST A 2D
@@ -61,7 +61,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>Two</strong>
                   </h3>
-                  <p className="p-0 m-0">
+                  <p className="p-3 m-0">
                     USERS WILL BE ABLE TO ACTUALLY SELECT WHAT
                     OUTFITS/TRAITS/LAYERS THEY WANT TO ADD TO THEIR BODY THUS
                     CREATING A CUSTOM LOOK ONTO THEIR PFP.
@@ -78,7 +78,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>Three</strong>
                   </h3>
-                  <p className="p-0 m-0">
+                  <p className="p-3 m-0">
                     WE ARE WORKING ON BUILDING DIFFERENT BODY TYPES SO YOU CAN
                     MINT DIFFERENT BODIES ONTO YOUR PFP. WE WANT A MORE DIVERSE
                     AND REALISTIC SET OF BODIES FOR THE ENDLESS OUTFIT OPTIONS
@@ -96,7 +96,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>Four</strong>
                   </h3>
-                  <p className="p-0 m-0">
+                  <p className="p-3 m-0">
                     WE ARE BUILDING BODIES FOR A NUMBER OF POPULAR PFP
                     COLLECTIONS. WE ARE WORKING ON BOSS BEAUTIES AND FAME LADY
                     SQUAD NEXT. IS THERE ANOTHER PFP COLLECTION THAT YOU’D LIKE
@@ -114,7 +114,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>Five</strong>
                   </h3>
-                  <p className="p-0 m-0">
+                  <p className="p-3 m-0">
                     WoO is working with VR designers to create actual 3d
                     wearable versions of the outfits in our collection.
                     Ultimately the goal is for you to be able to mint a wearable
@@ -137,7 +137,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>Six</strong>
                   </h3>
-                  <p className="p-0 m-0">
+                  <p className="p-3 m-0">
                     . Our futuristic reach goal is to get to a place where we
                     can take the digital blueprints of any of these outfits and
                     send to a cut & sew factory partner to then create real life
@@ -158,7 +158,7 @@ const FutureGoals = () => {
                     {" "}
                     <strong>Seven</strong>
                   </h3>
-                  <p className="p-0 m-0">3d sewing your garment and sending to you! Ok </p>
+                  <p className="p-3 m-0">3d sewing your garment and sending to you! Ok </p>
                 </div>
               </li>
             </ul>

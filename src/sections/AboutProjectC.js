@@ -74,7 +74,7 @@ const AboutProject = () => {
     <div className="home_what Pink pt-0" id="intro">
       <div className="container">
         <div className="what_flex  row pt-5 align-items-center">
-          <div className="what_inner">
+          <div className="what_inner text-center text-sm-left">
             <div
               className="what_inner_text visible-xs"
               data-aos="fade-up"

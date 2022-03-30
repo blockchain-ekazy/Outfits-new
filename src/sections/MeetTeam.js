@@ -15,8 +15,8 @@ const MeetTeam = () => {
     return (
         <>
 
-        <div className="container-fluid Pink py-5 bg-overlay">
-        <div className="home_road_map_heading aos-init aos-animate pl-5 text-center py-5    " data-aos="fade-up" data-aos-duration="1000">
+        <div className="container-fluid Pink  bg-overlay pt-3">
+        <div className="home_road_map_heading aos-init aos-animate text-center pt-5 pb-2    " data-aos="fade-up" data-aos-duration="1000">
                      <h3><em>Meet </em> The Team</h3>
                      <p>World of Outfits is a motley crew of blockchain technologists and fashion creatives. Meet our all-star team.</p>
                  </div>

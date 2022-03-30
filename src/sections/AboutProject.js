@@ -34,28 +34,20 @@ const AboutProject = () => {
                        className="btn"><span>VIEW ALL COLLECTION</span> <img src="img/btn_img3.png" title="" alt=""/></a>
         </div> */}
         <div className="what_flex row  align-items-center">
-          <div className="what_inner">
-            <div
-              className="what_inner_text visible-xs"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <h3>
-                <em>Own</em>a WOW?
-              </h3>
-            </div>
+          <div className="what_inner text-center text-sm-left">
+          
             <div
               className="what_inner_text"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="hidden-xs">
+              <h3 className="hidd en-xs">
                 What is world of <em>Outfits</em>
               </h3>
           <h5 className=" text-white"> World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
 
 
-                <h3 className=" font-weight-bold text-white " style={{fontSize : "40px "}}>own a <em>wow</em>?</h3>
+                <h3 className=" font-weight-bold text-white " style={{fontSize : "30px "}}>own a <em>wow</em>?</h3>
                 
 
                 {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}

@@ -112,10 +112,10 @@ ul li {
   height: 500px !important;
   align-items: center !important;
 }
-img {
-  max-width: 100%;
+/* img {
+  max-width: 65%;
   height: auto;
-}
+} */
 
 .iijjhh{
   position: absolute;
@@ -290,7 +290,7 @@ body {
   font-weight: 700;
 }
 h3 em {
-  -webkit-text-stroke: 3px #fff !important;
+  -webkit-text-stroke: 2px #fff !important;
   color: transparent;
   font-style: normal;
   font-weight: 900;
@@ -318,6 +318,7 @@ h5{
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 .home_banner_text .btn2 {
   padding: 20px 44px;
@@ -1563,13 +1564,13 @@ h5{
   }
 
   .home_banner_text h3 {
-    font-size: 16px;
+    font-size: 38px;
   }
   .home_banner_text h4 {
     font-size: 10px;
   }
   .home_banner_text p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .home_banner_text .btn {
     font-size: 10px;
@@ -1630,7 +1631,7 @@ h5{
   }
 
   .what_inner_text h3 {
-    font-size: 20px;
+    font-size: 40px;
     margin: 20px 0 20px;
     text-align: center;
   }
@@ -1713,10 +1714,10 @@ h5{
     display: none;
   }
   .home_road_map_heading h3 {
-    font-size: 25px;
+    font-size: 40px;
   }
   .home_road_map_heading p {
-    font-size: 10px;
+    font-size: 14px;
     margin: 0 0 20px;
   }
   .road_position_one {
@@ -3646,8 +3647,12 @@ ol.gradient-list > li + li {
 
 
 /* ---------------------------------------New-------------------------------- */
+html{
+  overflow-x: hidden;
+}
 .imageA{
   border-radius: 100%;
+  width: 100%;
 }
 body{
   background-color: #22315d !important;
@@ -3750,14 +3755,18 @@ body{
   background-color: #eb088c;
 }
 .Div{
-  margin: -28px -60px;
+  margin: -28px -5  0px;
+
+}
+.Div img{
+  width: 100% ;
 }
 .Divend{
-  margin: -20px -60px;
+  margin: -20px 0px;
 }
 .HoverImgs img{
   margin: auto;
-  height: 400px;
+  min-height: 130px;
   object-fit: contain;
 }
 .oldslider2 img,

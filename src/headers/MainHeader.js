@@ -61,7 +61,7 @@ function MainHeader() {
 
   return (
     <>
-      <nav class="navigation-bar   is-visible " data-nav-status="toggle">
+      <nav class="navigation-bar d-none d-md-block  is-visible " data-nav-status="toggle">
         <ul className="text-center">
           <li>
             <a href="#home " className="NavTxtLeft">HOME</a>
