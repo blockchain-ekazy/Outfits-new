@@ -35,7 +35,6 @@ const AboutProject = () => {
         </div> */}
         <div className="what_flex row  align-items-center">
           <div className="what_inner text-center text-sm-left">
-          
             <div
               className="what_inner_text"
               data-aos="fade-left"
@@ -44,22 +43,29 @@ const AboutProject = () => {
               <h3 className="hidd en-xs">
                 What is world of <em>Outfits</em>
               </h3>
-          <h5 className=" text-white"> World of outfits is a collection of 10,000 bodies designed to match your world of women NFT.</h5>
+              <h5 className=" text-white">
+                World of Outfits is a web3 fashion brand that has created an NFT
+                collection of 10,000 bodies and 10,000 outfits designed to match
+                your World of Women NFT.
+              </h5>
 
+              <h3
+                className=" font-weight-bold text-white "
+                style={{ fontSize: "30px " }}
+              >
+                own a <em>wow</em>?
+              </h3>
 
-                <h3 className=" font-weight-bold text-white " style={{fontSize : "30px "}}>own a <em>wow</em>?</h3>
-                
+              {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
 
-                {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
+              <div>
+                <button className="bottom-right mx-2 my-3 buttonPink">
+                  {" "}
+                  Claim Body <br /> Free + Gas
+                </button>
+              </div>
 
-                <div>
-              <button className="bottom-right mx-2 my-3 buttonPink">
-                {" "}
-                Claim Body <br /> Free + Gas
-              </button>
-            </div>
-
-                {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
+              {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
                   <img src="img/btn_img2.png" title="" alt=""/> 
                   <span className="">
                    Claim  Body<br/>
@@ -69,7 +75,6 @@ const AboutProject = () => {
             </div>
           </div>
           <div className="what_inner">
-            
             <div className="home_meet_team_slider">
               <div
                 className="home_meet_team_inner slick-slide slick-active"
@@ -175,19 +180,6 @@ const AboutProject = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </div>

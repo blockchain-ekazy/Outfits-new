@@ -49,7 +49,7 @@ const HomeBanner = () => {
             </div> */}
             <div>
               <button className="bottom-right mx-2 buttonPink">
-                Mint Outfits <br /> .05 eth + gas{" "}
+                Mint Outfit <br /> .05 eth + gas{" "}
               </button>
             </div>
             {/* <div className="btn_flex_inner">

@@ -162,8 +162,7 @@ const AboutProject = () => {
               </h3>
               <h5 className=" text-white">
                 {" "}
-                Once you have a body, You can then mint an outfit. Outfits have been designedby actual apparel/fashion designer
-              </h5>
+                Once you have a body Mint an Outfit" After you have claimed your body, mint an outfit. All outfits and accessories have been designed by actual fashion designers              </h5>
 
               {/* <h3
                 className=" font-weight-bold text-white "
@@ -177,7 +176,7 @@ const AboutProject = () => {
               <div>
                 <button className="bottom-right mx-2 my-3 buttonPink">
                   {" "}
-                  Mint An Outfit<br /> .02eth
+                  Mint an Outfit<br />.05 eth + Gas
                 </button>
               </div>
 

@@ -93,7 +93,7 @@ const AboutProject = () => {
               Don't own a <em>WoW </em>    and still want to be part of World of <em>Outfits?</em><br></br>         
               </h3>
               <h5 className=" text-white">
-              You can then mint one of ourrs heads {" "}
+              You can then mint one of our WoO heads connected to a body
                </h5>
 
               {/* <h3
@@ -108,7 +108,7 @@ const AboutProject = () => {
               <div>
                 <button className="bottom-right mx-2 my-3 buttonBlue">
                   {" "}
-                  Mint An Outfit<br /> .02eth
+                  Mint a Head + Blank Body<br/> .05 eth + gas
                 </button>
               </div>
 

@@ -175,7 +175,7 @@ const Footer = () => {
                 </li>
                 <li>|</li>
                 <li>
-                  <a href="#">TERM &amp; CONDITION</a>
+                  <a href="#">Terms and Conditions</a>
                 </li>
               </ul>
             </div>
