@@ -1,4 +1,6 @@
-
+.buttonPink,.buttonBlue {
+  display: none !important;
+}
 
 @font-face {
   font-family: "Rubik";
@@ -3767,6 +3769,7 @@ p{
   /* max-width: 46em; */
 }
 .timeline:before {
+  display: none;
   background-color: white;
   content: "";
   margin-left: -1px;
