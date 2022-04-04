@@ -26,19 +26,25 @@ function MobileHeader() {
           </div>
           <ul className="LI">
             <li>
-              <a href="#H">Home</a>
+            <a href="#home" className="NavTxtLeft">HOME</a>
             </li>
             <li>
-              <a href="#A">About </a>
+            <a href="#intro" className="NavTxtLeft">What is WoO?</a>
             </li>
             <li>
-              <a href="#RD">Road Map </a>
+            <a href="#benefits" className="NavTxtLeft">Claim Body</a>
             </li>
             <li>
-              <a href="#F">FAQs </a>
+            <a href="#faq" className="NavTxtLeft">FAQ</a>
             </li>
             <li>
-              <a href="#S">Squad </a>
+            <a href="#roadmap" className="NavTxtRight">Mint Outfit</a>
+            </li>
+            <li>
+            <a href="#goals" className="NavTxtRight">Mission+ Future</a>
+            </li>
+            <li>
+            <a href="#team" className="NavTxtRight">Allstar Team</a>
             </li>
             <li>
               <a href="" target="blank">

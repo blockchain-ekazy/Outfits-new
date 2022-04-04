@@ -12,6 +12,7 @@ import H2A from "../Components/Imgs/T6.PNG";
 const MeetTeam = () => {
   return (
     <>
+    <a id="team"></a>
       <div className="container-fluid Pink  bg-overlay pt-3">
         <div
           className="home_road_map_heading aos-init aos-animate text-center pt-5 pb-2    "

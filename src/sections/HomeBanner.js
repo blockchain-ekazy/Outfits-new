@@ -12,6 +12,7 @@ const HomeBanner = () => {
       id="home"
       style={{ backgroundColor: "#1e2d5b" }}
     >
+      <a id="home" ></a>
       <div className="hidden-xs">
         {/* <img src="img/banner_new.png" title="" alt="" width="100%"/> */}
       </div>
