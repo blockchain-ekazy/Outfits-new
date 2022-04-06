@@ -1,7 +1,7 @@
 import React from "react";
 
 import H1 from "../Components/Imgs/T1.PNG";
-import H2 from "../Components/Imgs/T2.PNG";
+import H2 from "../Components/Imgs/Picture23.png";
 import H3 from "../Components/Imgs/T3.PNG";
 import H4 from "../Components/Imgs/T4.PNG";
 import H1A from "../Components/Imgs/T5.PNG";
@@ -12,7 +12,7 @@ import H2A from "../Components/Imgs/T6.PNG";
 const MeetTeam = () => {
   return (
     <>
-    <a id="team"></a>
+      <a id="team"></a>
       <div className="container-fluid Pink  bg-overlay pt-3">
         <div
           className="home_road_map_heading aos-init aos-animate text-center pt-5 pb-2    "
@@ -30,14 +30,19 @@ const MeetTeam = () => {
         <div className="row align-items-center">
           <div className="col-1"></div>
           <div className="col-md-4">
-            <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
-              <img className="ImgTeam" src={H1} title="" alt="" width="100%" />
+            <div className="my-2 ImgTeam bottom-rightTeam d -block mx-auto mx-md-5  buttonPinkTeam">
+              <img className="" src={H1} title="" alt="" width="100%" />
             </div>
           </div>
           <div className="col-md-6 ">
-            <h3 className="text-white font-weight-bold">Visionary @WorldofOutfits on twitter </h3>
+            <h3 className="text-white font-weight-bold">
+              Visionary <br />
+              Gregory{" "}
+            </h3>
             <p className="text-white fontpop" style={{ fontSize: "17px" }}>
-            I've been in fashion and apparel for 20 years and wanted to create a digital platform to enable brands to get into NFTs and the metaverse.
+              I've been in fashion and apparel for 20 years and wanted to create
+              a digital platform to enable apparel, accessory, and jewelry
+              brands to get into NFTs and the metaverse
             </p>
           </div>
           <div className="col-1"></div>
@@ -46,14 +51,21 @@ const MeetTeam = () => {
         <div className="row align-items-center">
           <div className="col-1"></div>
           <div className="col-md-4">
-            <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+            <div className="ImgTeam my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
               <img className="" src={H2} title="" alt="" width="100%" />
             </div>
           </div>
           <div className="col-md-6 ">
-            <h3 className="text-white font-weight-bold">Artist & CEO Jelena </h3>
+            <h3 className="text-white font-weight-bold">
+              Head <br />
+              Artist Jelena{" "}
+            </h3>
             <p className="text-white fontpop" style={{ fontSize: "17px" }}>
-            I am the head designer of this fashionable NFT trip. I live and breathe fashion and it has been a creative blast to create the traits and layers that will become the foundation for this game changing fashion NFT platform. I am also a handbag designer.
+              I am the head designer of this fashionable NFT trip. I live and
+              breathe fashion and it has been a creative blast to create the
+              traits and layers that will become the foundation for this game
+              changing fashion NFT platform. I am also a handbag designer and
+              some of my handbag designs will be in our collection!
             </p>
           </div>
           <div className="col-1"></div>
@@ -62,14 +74,21 @@ const MeetTeam = () => {
         <div className="row align-items-center">
           <div className="col-1"></div>
           <div className="col-md-4">
-            <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+            <div className="my-2 ImgTeam bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
               <img className="" src={H3} title="" alt="" width="100%" />
             </div>
           </div>
           <div className="col-md-6 ">
-            <h3 className="text-white font-weight-bold">Out of this World Developer Sabir </h3>
+            <h3 className="text-white font-weight-bold">
+              Developer <br /> Sabir{" "}
+            </h3>
             <p className="text-white fontpop" style={{ fontSize: "17px" }}>
-            My job is to make sure you get your NFT when you click mint.
+              My job is to make sure you get your NFT when you click mint! To be
+              more serious, it’s a rather complex process to mix and match
+              apparel and accessory layers to create a perfect collection of
+              10,000 outfits. We are also building the next version of the
+              platform already where you will be able to select and mint any
+              trait desired and build your own custom outfit
             </p>
           </div>
           <div className="col-1"></div>
@@ -78,14 +97,20 @@ const MeetTeam = () => {
         <div className="row align-items-center">
           <div className="col-1"></div>
           <div className="col-md-4">
-            <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+            <div className="my-2 ImgTeam  bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
               <img className="" src={H4} title="" alt="" width="100%" />
             </div>
           </div>
           <div className="col-md-6 ">
-            <h3 className="text-white font-weight-bold">Collab / Director of Partnerships </h3>
+            <h3 className="text-white font-weight-bold">
+              Collab <br /> Director of Partnerships Ethan
+            </h3>
             <p className="text-white fontpop" style={{ fontSize: "17px" }}>
-            I am speaking with apparel and accessory brands who want to place their 2D designs into the WoO collection along with helping these brands create 3d digital wearables for the metaverse specifically Decentraland.
+              I am speaking with apparel, accessory, and jewelry brands who want
+              to place their 2D designs into the WoO collection along with
+              helping these brands create 3d digital wearables for the metaverse
+              specifically Decentraland. If you want to include your designs for
+              a future WoO drop, get in touch with us on twitter.
             </p>
           </div>
           <div className="col-1"></div>
@@ -94,16 +119,17 @@ const MeetTeam = () => {
         <div className="row align-items-center">
           <div className="col-1"></div>
           <div className="col-md-4">
-            <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+            <div className="my-2 ImgTeam bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
               <img className="" src={H1A} title="" alt="" width="100%" />
             </div>
           </div>
           <div className="col-md-6 ">
             <h3 className="text-white font-weight-bold">
-              Dreamer / Incubator{" "}
+              Dreamer <br />
+              Incubator Anon{" "}
             </h3>
             <p className="text-white fontpop" style={{ fontSize: "17px" }}>
-            My job is to dream big and find talented passionate people.
+              My job is to dream big and find talented passionate people
             </p>
           </div>
           <div className="col-1"></div>
@@ -112,14 +138,18 @@ const MeetTeam = () => {
         <div className="row align-items-center">
           <div className="col-1"></div>
           <div className="col-md-4">
-            <div className="my-2 bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
+            <div className="my-2 ImgTeam bottom-rightTeam d-block mx-auto mx-md-5  buttonPinkTeam">
               <img className="" src={H2A} title="" alt="" width="100%" />
             </div>
           </div>
           <div className="col-md-6 ">
-            <h3 className="text-white font-weight-bold">Metaverse Wearables Director Robyn </h3>
+            <h3 className="text-white font-weight-bold">
+              Metaverse <br /> Wearables Director Robyn{" "}
+            </h3>
             <p className="text-white fontpop" style={{ fontSize: "17px" }}>
-            My job is to bridge our 2d apparel and accessory designs into the 3d world of the metaverse.
+              My job is to bridge our 2d apparel, accessory, and jewelry designs
+              into the 3d world of the metaverse. The future is digital and we
+              will be helping you dress for it. :)
             </p>
           </div>
           <div className="col-1"></div>

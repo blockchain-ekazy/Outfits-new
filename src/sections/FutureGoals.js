@@ -3,8 +3,11 @@ import React from "react";
 import Img from "../Components/Imgs/FG.jpeg";
 import Img2 from "../Components/Imgs/FG2.png";
 
-import BIA from '../Components/Imgs/A.png'
-import BIB from '../Components/Imgs/B.png'
+import BIA from "../Components/Imgs/A.png";
+import BIB from "../Components/Imgs/B.png";
+import BIC from "../Components/Imgs/F3.png";
+import BID from "../Components/Imgs/Picture2-removebg-preview.png";
+
 
 // import ImgG from "../Components/Imgs/H2.PNG";
 
@@ -45,24 +48,24 @@ const FutureGoals = () => {
                   </h3> */}
                   <p className="p-2 m-0">
                     <strong>ADDING ADDITIONAL COLLECTIONS</strong>
-                        <br />
-                        <div className="container">
-                          <div className="row align-items-center">
-                            <div className="col-6">
-                            We are building bodies and outfits for other collections including World of Women Galaxy, Boss Beauties, and Fame Lady Squad.
-
-                            </div>
-                            <div className="col-6">
-                              <img className="w-25" src={BIA}></img>
-                              <img className="w-25" src={BIB}></img>
-                            </div>
-                            {/* <div className="col-3 m-0 p-0">
+                    <br />
+                    <div className="container">
+                      <div className="row align-items-center">
+                        <div className="col-6">
+                          We are building bodies and outfits for other
+                          collections including World of Women Galaxy, Boss
+                          Beauties, and Fame Lady Squad.
+                        </div>
+                        <div className="col-6">
+                          <img className="w-25" src={BIA}></img>
+                          <img className="w-25" src={BIB}></img>
+                          <img className="w-25" src={BIC}></img>
+                        </div>
+                        {/* <div className="col-3 m-0 p-0">
 
                             </div> */}
-                          </div>
-                        </div>
-                   
-
+                      </div>
+                    </div>
                   </p>
                 </div>
               </li>
@@ -77,7 +80,11 @@ const FutureGoals = () => {
                   </h3> */}
                   <strong>DESIGNER COLLABS</strong>
                   <p className="p-3 m-0">
-                  We are working with emerging apparel designers to add additional traits/layers into our system to allow for more outfit options. Do you own an apparel brand? Or an accessory or jewelry company? Do you want to add your products into the next WoO collection? Contact us.
+                    We are working with emerging apparel designers to add
+                    additional traits/layers into our system to allow for more
+                    outfit options. Do you own an apparel brand? Or an accessory
+                    or jewelry company? Do you want to add your products into
+                    the next WoO collection? Contact us.
                   </p>
                 </div>
               </li>
@@ -92,7 +99,9 @@ const FutureGoals = () => {
                   </h3> */}
                   <strong>USER DRIVEN OUTFITS</strong>
                   <p className="p-3 m-0">
-                  We are building an interface where users will be able to select whatever trait/outfit they desire and to then mint that custom outfit onto their WoW or other PFP.
+                    We are building an interface where users will be able to
+                    select whatever trait/outfit they desire and to then mint
+                    that custom outfit onto their WoW or other PFP.
                   </p>
                 </div>
               </li>
@@ -102,7 +111,7 @@ const FutureGoals = () => {
 
         <div className="row align-items-center">
           <div className="col-md-8">
-          <ul class="timeline my-5">
+            <ul class="timeline my-5">
               <li class="timeline-event">
                 <label class="timeline-event-icon"></label>
                 <div class="timeline-event-copy">
@@ -113,35 +122,53 @@ const FutureGoals = () => {
                     {" "}
                     <strong>One</strong>
                   </h3> */}
+
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-8">
+
                   <p className="p-2 m-0">
                     <strong>ABILITY TO MINT OTHER BODY TYPES </strong>
-                        <br />
-                        We want to add the ability for a user to mint different body types so we create a more diverse and realistic set of bodies.
-
+                    <br />
+                    We want to add the ability for a user to mint different body
+                    types so we create a more diverse and realistic set of
+                    bodies.
                   </p>
+                      </div>
+                      <div className="col-4">
+                      <img className="w-75" src={BID}></img>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
               <li class="timeline-event">
                 <label class="timeline-event-icon"></label>
                 <div class="timeline-event-copy">
-                  {/* <p class="timeline-event-thumbnail">
-                    <i class="fa-solid fa-dice-two"></i>
-                  </p> */}
-                  {/* <h3 className="RDH">
-                    {" "}
-                  </h3> */}
-                  <strong>ABILITY TO MINT 3D WEARABLES BASED ON YOUR OUTFIT</strong>
+                  <strong>
+                    ABILITY TO MINT 3D WEARABLES BASED ON YOUR OUTFIT
+                  </strong>
                   <p className="p-3 m-0">
-                  We want to give you a way to wear your outfit in the metaverse. If you are lucky enough to mint a legendary outfit you will receive a 3d wearable for free if the project sells out. Other holders will have the ability to mint a 3d wearable for use in Decentraland too.
-                   </p>
+                    We want to give you a way to wear your outfit in the
+                    metaverse. If you are lucky enough to mint a legendary
+                    outfit you will receive a 3d wearable for free if the
+                    project sells out. Other holders will have the ability to
+                    mint a 3d wearable for use in Decentraland too.
+                  </p>
                 </div>
               </li>
               <li class="timeline-event">
                 {/* <label class="timeline-event-icon"></label> */}
                 <div class="timeline-event-copy">
                   {/* <strong>USER DRIVEN OUTFITS</strong> */}
-                  <p className="p-3 m-0">
-                  World of Outfits is creating a fashion platform that allows end users and designers to collab and create endless looks for the metaverse and IRL.<br/><br/> Owning a WoO is a ticket into this world of web3 fashion and metaverse apparel, accessories, and jewelry. This is only the beginning.
+                  <p className="p-3 m-0 font-weight-bold">
+                    World of Outfits is creating a fashion platform that allows
+                    end users and designers to collab and create endless looks
+                    for the metaverse and IRL.
+                    <br />
+                    <br /> Owning a WoO is a ticket into this world of web3
+                    fashion and metaverse apparel, accessories, and jewelry.
+                    This is only the beginning.
                   </p>
                 </div>
               </li>
@@ -155,7 +182,6 @@ const FutureGoals = () => {
               title=""
               alt=""
             />
-           
           </div>
         </div>
         {/* </Fade> */}

@@ -1,6 +1,6 @@
-.buttonPink,.buttonBlue {
+/* .buttonPink,.buttonBlue {
   display: none !important;
-}
+} */
 
 @font-face {
   font-family: "Rubik";
@@ -3893,4 +3893,7 @@ p{
 }
 .ImgTeam{
   padding: 0px !important;
+  max-width: 200px;
+  display: block !important;
+  margin: 10px auto  !important;
 }

@@ -18,8 +18,7 @@ const Footer = () => {
                 World Of Outfits
               </h3>
               <p>
-                Become a member of the strongest and fast growing <br /> NFTs
-                community.
+              Follow us on <span><a className="text-primary" href="https://twitter.com/WorldofOutfits">twitter</a></span> to stay tuned for drop date info
               </p>
               <div className="footer_btn_flex">
                 {/* <div className="footer_btn_inner">
@@ -69,7 +68,7 @@ const Footer = () => {
               <h3>
                 <em>Mint</em>
                 <br />
-                April 4
+                April 20
               </h3>
               <button className="bottom-right mx-2 my-3 buttonPink">
                   {" "}
