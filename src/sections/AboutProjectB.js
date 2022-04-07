@@ -157,12 +157,23 @@ const AboutProject = () => {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="hidden-xs">
-              After You Have A <em> Body</em> Then
+              <h3 className="hidden-xs text-center" style={{fontSize:"60px"}}>
+              {/* After You Have A <em> Body</em> Then */}
+              ONCE YOU HAVE A BODY<br/><em> MINT</em> AN OUTFIT
               </h3>
+              
+              <div className="text-center my-3">
+                <button className="bottom-right mx-2 my-3 buttonPink">
+                  {" "}
+                  Mint an Outfit<br />.05 eth + Gas
+                </button>
+              </div>
+
               <h5 className=" text-white">
                 {" "}
-                Once you have a body Mint an Outfit" After you have claimed your body, mint an outfit. All outfits and accessories have been designed by actual fashion designers              </h5>
+                {/* Once you have a body Mint an Outfit" After you have claimed your body, mint an outfit. All outfits and accessories have been designed by actual fashion designers               */}
+                10,000 different outfits created from a massive assortment of different tops, pants, jackets, dresses, swimsuits, skirts, socks, shoes, jewelry, and accessories (e.g. think designer handbags).
+                </h5>
 
               {/* <h3
                 className=" font-weight-bold text-white "
@@ -173,13 +184,6 @@ const AboutProject = () => {
 
               {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
 
-              <div>
-                <button className="bottom-right mx-2 my-3 buttonPink">
-                  {" "}
-                  Mint an Outfit<br />.05 eth + Gas
-                </button>
-              </div>
-
               {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
                   <img src="img/btn_img2.png" title="" alt=""/> 
                   <span className="">
@@ -189,7 +193,10 @@ const AboutProject = () => {
                 </a> */}
             </div>
           </div>
+          
+      {/* <h3 className="mt-5  text-center text-white">Borows outfits</h3> */}
         </div>
+
       </div>
     </div>
   );

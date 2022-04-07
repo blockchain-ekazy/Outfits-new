@@ -47,23 +47,43 @@ const AboutProject = () => {
                 World of Outfits is a web3 fashion brand that has created an NFT
                 collection of 10,000 bodies and 10,000 outfits designed to match
                 your World of Women NFT.
+                <br/><br/>
+                Owning a WoO NFT isn't just about getting a cool digital
+                illustration for your PFP. You are joining a community dedicated
+                to exploring and developing fashion and actual 3d wearables in
+                the metaverse.
               </h5>
 
-              <h3
-                className=" font-weight-bold text-white "
-                style={{ fontSize: "30px " }}
-              >
-                own a <em>wow</em>?
-              </h3>
-
-              {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
-
-              <div>
+              <div className="container mt-3">
+                <div className="row align-items-center">
+                  <div className="col-md-6">
+                  <div className="text-center">
+                <h3
+                  className=" font-weight-bold text-white "
+                  style={{ fontSize: "30px " }}
+                >
+                  own a <em>wow</em>?
+                </h3>
+                <h6 className="text-white ">then Claim body here <em>➡</em></h6>
+              </div>
+                  </div>
+                  <div className="col-md-6">
+                  <div>
                 <button className="bottom-right mx-2 my-3 buttonPink">
                   {" "}
                   Claim Body <br /> Free + Gas
                 </button>
               </div>
+                  </div>
+
+                </div>
+
+              </div>
+            
+
+              {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
+
+            
 
               {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
                   <img src="img/btn_img2.png" title="" alt=""/> 
@@ -179,6 +199,7 @@ const AboutProject = () => {
                 </div>
               </div>
             </div>
+      <h3 className="mt-5 text-center text-white">Your body will be same skintone as your current PFP</h3>
           </div>
         </div>
       </div>

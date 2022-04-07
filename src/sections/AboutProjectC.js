@@ -72,7 +72,9 @@ const AboutProject = () => {
       <img src={Div}></img>
     </div>
     <div className="home_what Pink pt-0" id="intro">
+      
       <div className="container">
+    <h3 className=" text-cente font-weight-bold text-white">WE WANT EVERYONE TO BE ABLE TO BE A PART OF WORLD OF OUTFITS</h3>
         <div className="what_flex  row pt-5 align-items-center">
           <div className="what_inner text-center text-sm-left">
             <div
@@ -89,12 +91,13 @@ const AboutProject = () => {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="hidden-xs">
-              Don't own a <em>WoW </em>    and still want to be part of World of <em>Outfits?</em><br></br>         
+              <h3 className="hidden-xs" style={{fontSize:"50px"}}>
+              {/* Don't own a <em>WoW </em>    and still want to be part of World of <em>Outfits?</em><br></br>          */}
+              Don't own a <em>WoW </em>? <br/>You can mint one of our WoO heads connected to a blank body here.
               </h3>
-              <h5 className=" text-white">
+              {/* <h5 className=" text-white">
               You can then mint one of our WoO heads connected to a body
-               </h5>
+               </h5> */}
 
               {/* <h3
                 className=" font-weight-bold text-white "

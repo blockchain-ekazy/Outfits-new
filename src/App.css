@@ -42,7 +42,13 @@
 html {
   scroll-behavior: smooth;
 }
-.Worlddd {
+.WorldddA {
+  -webkit-text-stroke: 3px #fff;
+  color: transparent;
+  font-style: normal;
+  font-weight: 900;
+}
+.WorldddB {
   -webkit-text-stroke: 6px #fff;
   color: transparent;
   font-style: normal;
