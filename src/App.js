@@ -10,6 +10,7 @@ import WhatIsThisProjectAvatar from "./sections/WhatIsThisProjectAvatar";
 import ProjectBenefits from "./sections/ProjectBenifits";
 import SpecialItems from "./sections/SpecialItems";
 import SpecialItems2 from "./sections/SpecialItems2";
+import SpecialItemsTow2 from "./sections/SpecialItemsTow2";
 import RoadMap from "./sections/RoadMap";
 import JoinCommunity from "./sections/JoinCommunity";
 import FutureGoals from "./sections/FutureGoals";
@@ -29,6 +30,9 @@ function App() {
       <AboutProjectB />
       <AboutProjectC />
       <WhatIsThisProjectAvatar />
+
+     
+
       {/* <ProjectBenefits/> */}
       <div
         className="home_benifits_heading home_our_special_heading pt-5 "
@@ -58,8 +62,11 @@ function App() {
         </p>
       </div>
       <div className="Pink" style={{ position: "relative" }}>
+        
         <SpecialItems />
         <SpecialItems2 />
+
+        <SpecialItemsTow2/>
       </div>
       <div className="Div">
         <img className=" w-100" src={Div}></img>

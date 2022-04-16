@@ -11,149 +11,165 @@ import H4A from "../Components/Imgs/1x/1x/DressD_Body.png";
 
 const WhatIsThisProjectAvatar = () => {
   return (
-    <div className="home_bored_bunny text-center">
-      <h1 className="mt-5 text-white tect-center" style={{fontSize:"70px"}}>
-        <span className="WorldddA"> World </span> of Outfits
-      </h1>
-      <h3 className="mb-5 text-center text-white">
-        Hover over a body to see an outfit
-      </h3>
-
-      <div className="home_bored_bunny_max">
-        <div className="home_bored_bunny_flex HoverImgs text-center ">
-          <div className="home_bored_bunny_inner LightBlue">
-            <div className="home_bored_bunny_img">
-              <img
-                src={H1}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_show"
-              />
-              <img
-                src={H1A}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_hide"
-              />
-            </div>
-          </div>
-          <div className="home_bored_bunny_inner Blue">
-            <div className="home_bored_bunny_img">
-              <img
-                src={H2}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_show"
-              />
-              <img
-                src={H2A}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_hide"
-              />
-            </div>
-          </div>
-          <div className="home_bored_bunny_inner LightBlue">
-            <div className="home_bored_bunny_img">
-              <img
-                src={H3}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_show"
-              />
-              <img
-                src={H3A}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_hide"
-              />
-            </div>
-          </div>
-          <div className="home_bored_bunny_inner Blue">
-            <div className="home_bored_bunny_img">
-              <img
-                src={H4}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_show"
-              />
-              <img
-                src={H4A}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_hide"
-              />
-            </div>
-          </div>
-          <div className="home_bored_bunny_inner LightBlue">
-            <div className="home_bored_bunny_img">
-              <img
-                src={H1}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_show"
-              />
-              <img
-                src={H1A}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_hide"
-              />
-            </div>
-          </div>
-          <div className="home_bored_bunny_inner Blue">
-            <div className="home_bored_bunny_img">
-              <img
-                src={H2}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_show"
-              />
-              <img
-                src={H2A}
-                title=""
-                alt=""
-                width="80%"
-                className="hover_hide"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          className="home_bored_text "
-          data-aos="fade-up"
-          data-aos-duration="1000"
+    <>
+      <div className="home_bored_bunny text-center">
+        <h1
+          className="mt-5 text-white tect-center"
+          style={{ fontSize: "70px" }}
         >
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <h3 className="">
-                  {" "}
-                  <span className="WorldddB"> Claim </span>Body{" "}
-                </h3>
+          <span className="WorldddA"> World </span> of Outfits
+        </h1>
+        <h3 className="mb-5 text-center text-white">
+          Hover over a body to see an outfit
+        </h3>
+
+        <div className="home_bored_bunny_max">
+          <div className="home_bored_bunny_flex HoverImgs text-center ">
+            <div className="home_bored_bunny_inner LightBlue">
+              <div className="home_bored_bunny_img">
+                <img
+                  src={H1}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_show"
+                />
+                <img
+                  src={H1A}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_hide"
+                />
               </div>
-              <div className="col-md-6">
-                <h3 className="">
-                  {" "}
-                  <span className="WorldddB"> Mint </span>Outfit{" "}
-                </h3>
+            </div>
+            <div className="home_bored_bunny_inner Blue">
+              <div className="home_bored_bunny_img">
+                <img
+                  src={H2}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_show"
+                />
+                <img
+                  src={H2A}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_hide"
+                />
               </div>
+            </div>
+            <div className="home_bored_bunny_inner LightBlue">
+              <div className="home_bored_bunny_img">
+                <img
+                  src={H3}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_show"
+                />
+                <img
+                  src={H3A}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_hide"
+                />
+              </div>
+            </div>
+            <div className="home_bored_bunny_inner Blue">
+              <div className="home_bored_bunny_img">
+                <img
+                  src={H4}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_show"
+                />
+                <img
+                  src={H4A}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_hide"
+                />
+              </div>
+            </div>
+            <div className="home_bored_bunny_inner LightBlue">
+              <div className="home_bored_bunny_img">
+                <img
+                  src={H1}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_show"
+                />
+                <img
+                  src={H1A}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_hide"
+                />
+              </div>
+            </div>
+            <div className="home_bored_bunny_inner Blue">
+              <div className="home_bored_bunny_img">
+                <img
+                  src={H2}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_show"
+                />
+                <img
+                  src={H2A}
+                  title=""
+                  alt=""
+                  width="80%"
+                  className="hover_hide"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="home_bored_text "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          ></div>
+        </div>
+        <div className="container py-3">
+          <div className="row">
+            <div className="col-md-6">
+                <a style={{cursor:"pointer"}}>
+              <h3 className="text-white ">
+
+                {" "}
+                <span className="WorldddB"> Claim </span>
+                <span className="font-weight-bold" style={{ fontSize: "60px" }}>
+                  Body
+                </span>{" "}
+              </h3>
+                </a>
+            </div>
+            <div className="col-md-6">
+            <a id="intro" style={{cursor:"pointer"}}>
+
+              <h3 className="text-white">
+                {" "}
+                <span className="WorldddB"> Mint </span>
+                <span className="font-weight-bold" style={{ fontSize: "60px" }}>
+                  Outfit
+                </span>{" "}{" "}
+              </h3>
+            </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default WhatIsThisProjectAvatar;

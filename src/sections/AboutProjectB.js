@@ -11,9 +11,7 @@ import Circle1 from "../Components/Imgs/Capture2-modified.png";
 import Circle2 from "../Components/Imgs/Capture3-modified.png";
 import Circle3 from "../Components/Imgs/Capture4-modified.png";
 
-import Gif from "../Components/Imgs/BodyGif.gif";
-import SpecialItems from "./SpecialItemsS";
-import SpecialItems2 from "./SpecialItemsS2";
+
 
 const AboutProject = () => {
   return (

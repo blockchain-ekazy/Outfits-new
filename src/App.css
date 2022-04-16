@@ -1,6 +1,6 @@
-/* .buttonPink,.buttonBlue {
-  display: none !important;
-} */
+.buttonPink,.buttonBlue {
+  /* display: none !important; */
+}
 
 @font-face {
   font-family: "Rubik";
@@ -49,10 +49,12 @@ html {
   font-weight: 900;
 }
 .WorldddB {
-  -webkit-text-stroke: 6px #fff;
+  text-align: center;
+  -webkit-text-stroke: 3px #fff;
   color: transparent;
   font-style: normal;
   font-weight: 900;
+  font-size: 60px ;
 }
 .hsdsd {
   font-size: 5rem !important ;
@@ -904,6 +906,11 @@ h5{
 /*.home_meet_team_slider .slick-next{right:40px;background-image:url(img/arrow_right.png);background-repeat:no-repeat;background-size:94px;width:94px;height:29px}*/
 .home_meet_team_slider .slick-prev:before,
 .home_meet_team_slider .slick-next:before {
+  content: "";
+}
+
+.home_meet_team_sliderB .slick-prev:before,
+.home_meet_team_sliderB .slick-next:before {
   content: "";
 }
 
@@ -3231,6 +3238,25 @@ h5{
   height: 29px;
 }
 .home_meet_team_slider .slick-prev {
+  left: 40px;
+  background-image: url(../public/img/arrow_left.png);
+  background-repeat: no-repeat;
+
+  background-size: 94px;
+  width: 94px;
+  height: 29px;
+  z-index: 99;
+}
+
+.home_meet_team_sliderB .slick-next {
+  right: 40px;
+  background-image: url(../public/img/arrow_right.png);
+  background-repeat: no-repeat;
+  background-size: 94px;
+  width: 94px;
+  height: 29px;
+}
+.home_meet_team_sliderB .slick-prev {
   left: 40px;
   background-image: url(../public/img/arrow_left.png);
   background-repeat: no-repeat;
