@@ -173,6 +173,11 @@ const AboutProject = () => {
                 10,000 different outfits created from a massive assortment of different tops, pants, jackets, dresses, swimsuits, skirts, socks, shoes, jewelry, and accessories (e.g. think designer handbags).
                 </h5>
 
+                <h5 className="px-5 pt-3" style={{color:"#8aaecc"}}>
+                  30 LEGENDARY OUTFITS<br/>
+                  30 RARE COSTUMES
+                </h5>
+
               {/* <h3
                 className=" font-weight-bold text-white "
                 style={{ fontSize: "40px " }}

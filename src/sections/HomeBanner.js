@@ -7,12 +7,14 @@ import ImgD from "../Components/Imgs/1x/Full BOdy/head4.PNG";
 
 const HomeBanner = () => {
   return (
+    <>
+    <a id="intro"></a>
     <div
-      className="home_banner HeadHome bg-overlay"
-      id="home"
-      style={{ backgroundColor: "#1e2d5b" }}
+    className="home_banner HeadHome bg-overlay"
+    id="home"
+    style={{ backgroundColor: "#1e2d5b" }}
     >
-      <a id="home" ></a>
+      <a id="home"></a>
       <div className="hidden-xs">
         {/* <img src="img/banner_new.png" title="" alt="" width="100%"/> */}
       </div>
@@ -92,6 +94,7 @@ const HomeBanner = () => {
         <img src={ImgD} title="" alt="" className="imageA" />
       </div> */}
     </div>
+    </>
   );
 };
 export default HomeBanner;
