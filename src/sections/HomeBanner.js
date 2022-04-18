@@ -8,7 +8,9 @@ import ImgD from "../Components/Imgs/1x/Full BOdy/head4.PNG";
 const HomeBanner = () => {
   return (
     <>
-    <a id="intro"></a>
+    <a id="intro">
+      
+    </a>
     <div
     className="home_banner HeadHome bg-overlay"
     id="home"
