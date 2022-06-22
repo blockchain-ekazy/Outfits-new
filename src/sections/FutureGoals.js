@@ -1,6 +1,8 @@
 import React from "react";
 
-import Img from "../Components/Imgs/FG.jpeg";
+// import Img from "../Components/Imgs/FG.jpeg";
+import Img from '../Components/Imgs/Body/Artboard 5.png'
+
 import Img2 from "../Components/Imgs/FG2.png";
 
 import BIA from "../Components/Imgs/A.png";
@@ -29,7 +31,7 @@ const FutureGoals = () => {
             <img
               src={Img}
               className=" m-auto d-none d-sm-block"
-              width="200px"
+              width="550px"
               title=""
               alt=""
             />

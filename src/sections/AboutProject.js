@@ -6,10 +6,14 @@ import H3 from "../Components/Imgs/1x/Full/BodyC.png";
 import H4 from "../Components/Imgs/1x/Full/BodyA.png";
 import H1A from "../Components/Imgs/1x/Full/BodyD.png";
 import H2A from "../Components/Imgs/1x/Full/BodyC.png";
-import MCircle from "../Components/Imgs/Capture1-modified.png";
-import Circle1 from "../Components/Imgs/Capture2-modified.png";
-import Circle2 from "../Components/Imgs/Capture3-modified.png";
-import Circle3 from "../Components/Imgs/Capture4-modified.png";
+
+
+import Body1 from '../Components/Imgs/OnlyBody/Body 1.png'
+import Body2 from '../Components/Imgs/OnlyBody/Body 2.png'
+import Body3 from '../Components/Imgs/OnlyBody/Body 3.png'
+import Body4 from '../Components/Imgs/OnlyBody/Body 4.png'
+import Body5 from '../Components/Imgs/OnlyBody/Body 5.png'
+import Body6 from '../Components/Imgs/OnlyBody/Body 6.png'
 
 import Gif from "../Components/Imgs/BodyGif.gif";
 
@@ -108,7 +112,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H1} title="" alt="" width="100%" />
+                  <img src={Body1} title="" alt="" width="400%"className="ml-3 ml-md-0"   />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Visionary</h3> */}
@@ -125,7 +129,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H2} title="" alt="" width="100%" />
+                  <img src={Body2} title="" alt="" width="400%"className="ml-3 ml-md-0"    />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Jelena</h3> */}
@@ -142,7 +146,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H3} title="" alt="" width="100%" />
+                  <img src={Body3} title="" alt="" width="400%"className="ml-3 ml-md-0"    />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Dreamer</h3> */}
@@ -159,7 +163,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H4} title="" alt="" width="100%" />
+                  <img src={Body4} title="" alt="" width="400%"className="ml-3 ml-md-0"    />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Collab</h3> */}
@@ -176,7 +180,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H1A} title="" alt="" width="100%" />
+                  <img src={Body5} title="" alt="" width="400%"className="ml-3 ml-md-0"    />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>sabirpro</h3>
@@ -193,7 +197,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H2A} title="" alt="" width="100%" />
+                  <img src={Body6} title="" alt="" width="400%"className="ml-3 ml-md-0"    />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Robyan</h3> */}

@@ -1,15 +1,13 @@
 import React from "react";
 
-import H1 from "../Components/Imgs/1x/Full BOdy/1.png";
-import H2 from "../Components/Imgs/1x/Full BOdy/2.png";
-import H3 from "../Components/Imgs/1x/Full BOdy/3.png";
-import H4 from "../Components/Imgs/1x/Full BOdy/4.png";
-import H1A from "../Components/Imgs/1x/Full/BodyD.png";
-import H2A from "../Components/Imgs/1x/Full/BodyC.png";
-import MCircle from "../Components/Imgs/Capture1-modified.png";
-import Circle1 from "../Components/Imgs/Capture2-modified.png";
-import Circle2 from "../Components/Imgs/Capture3-modified.png";
-import Circle3 from "../Components/Imgs/Capture4-modified.png";
+import Image1 from '../Components/Imgs/Body/Artboard 1.png'
+import Image2 from '../Components/Imgs/Body/Artboard 3.png'
+import Image3 from '../Components/Imgs/Body/Artboard 5.png'
+import Image4 from '../Components/Imgs/Body/Artboard 7.png'
+import Image5 from '../Components/Imgs/Body/Artboard 9.png'
+import Image6 from '../Components/Imgs/Body/Artboard 11.png'
+import Image7 from '../Components/Imgs/Body/Artboard 13.png'
+import Image8 from '../Components/Imgs/Body/Artboard 15.png'
 
 
 
@@ -46,7 +44,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H1} title="" alt="" width="100%" />
+                  <img className="ml-3 ml-md-0" src={Image1} title="" alt="" width="400%"  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Visionary</h3> */}
@@ -63,7 +61,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H2} title="" alt="" width="100%" />
+                  <img className="ml-3 ml-md-0" src={Image2} title="" alt="" width="400%"  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Jelena</h3> */}
@@ -80,7 +78,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H3} title="" alt="" width="100%" />
+                  <img className="ml-3 ml-md-0" src={Image3} title="" alt="" width="400%"  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Dreamer</h3> */}
@@ -97,7 +95,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H4} title="" alt="" width="100%" />
+                  <img className="ml-3 ml-md-0" src={Image4} title="" alt="" width="400%"  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Collab</h3> */}
@@ -114,7 +112,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H1} title="" alt="" width="100%" />
+                  <img className="ml-3 ml-md-0" src={Image5} title="" alt="" width="400%"  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>sabirpro</h3>
@@ -131,7 +129,7 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img src={H2} title="" alt="" width="100%" />
+                  <img className="ml-3 ml-md-0" src={Image6} title="" alt="" width="400%"  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Robyan</h3> */}

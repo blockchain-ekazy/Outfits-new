@@ -8,6 +8,18 @@ import H5 from "../Components/Imgs/1x/DressE.png";
 import H6 from "../Components/Imgs/1x/DressF.png";
 import H7 from "../Components/Imgs/1x/DressG.png";
 
+import Image1 from '../Components/Imgs/Body/Artboard 1.png'
+import Image2 from '../Components/Imgs/Body/Artboard 3.png'
+import Image3 from '../Components/Imgs/Body/Artboard 5.png'
+import Image4 from '../Components/Imgs/Body/Artboard 7.png'
+import Image5 from '../Components/Imgs/Body/Artboard 9.png'
+import Image6 from '../Components/Imgs/Body/Artboard 11.png'
+import Image7 from '../Components/Imgs/Body/Artboard 13.png'
+import Image8 from '../Components/Imgs/Body/Artboard 15.png'
+import Image9 from '../Components/Imgs/Body/Artboard 16.png'
+import Image10 from '../Components/Imgs/Body/Artboard 18.png'
+
+
 const SpecialItems2 = () => {
   return (
     <>
@@ -47,7 +59,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H1} title="" alt="" width="100%" />
+                    <img src={Image1} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Visionary</h3> */}
@@ -64,7 +76,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H2} title="" alt="" width="100%" />
+                    <img src={Image2} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Jelena</h3> */}
@@ -81,7 +93,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H3} title="" alt="" width="100%" />
+                    <img src={Image3} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Dreamer</h3> */}
@@ -98,7 +110,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H4} title="" alt="" width="100%" />
+                    <img src={Image4} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Collab</h3> */}
@@ -115,7 +127,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H1} title="" alt="" width="100%" />
+                    <img src={Image5} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>sabirpro</h3>
@@ -132,7 +144,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H2} title="" alt="" width="100%" />
+                    <img src={Image6} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Robyan</h3> */}
@@ -150,7 +162,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H2} title="" alt="" width="100%" />
+                    <img src={Image7} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Robyan</h3> */}
@@ -168,7 +180,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H2} title="" alt="" width="100%" />
+                    <img src={Image8} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Robyan</h3> */}
@@ -186,7 +198,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H2} title="" alt="" width="100%" />
+                    <img src={Image9} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Robyan</h3> */}
@@ -204,7 +216,7 @@ const SpecialItems2 = () => {
                   aria-hidden="true"
                 >
                   <div className="home_meet_team_img">
-                    <img src={H2} title="" alt="" width="100%" />
+                    <img src={Image10} title="" alt="" width="320%" style={{marginLeft:"50px"}}  />
                   </div>
                   <div className="home_meet_team_text">
                     {/* <h3>Robyan</h3> */}

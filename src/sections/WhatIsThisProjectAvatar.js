@@ -9,6 +9,23 @@ import H2A from "../Components/Imgs/1x/1x/DressB_Body.png";
 import H3A from "../Components/Imgs/1x/1x/DressC_Body.png";
 import H4A from "../Components/Imgs/1x/1x/DressD_Body.png";
 
+
+import FullBody1 from '../Components/Imgs/OnlyBody/Full Body 1.png'
+import FullBody2 from '../Components/Imgs/OnlyBody/Full Body 2.png'
+import FullBody3 from '../Components/Imgs/OnlyBody/Full Body 3.png'
+import FullBody4 from '../Components/Imgs/OnlyBody/Full Body 4.png'
+import FullBody5 from '../Components/Imgs/OnlyBody/Full Body 5.png'
+import FullBody6 from '../Components/Imgs/OnlyBody/Full Body 6.png'
+
+import Body1 from '../Components/Imgs/OnlyBody/Body 1.png'
+import Body2 from '../Components/Imgs/OnlyBody/Body 2.png'
+import Body3 from '../Components/Imgs/OnlyBody/Body 3.png'
+import Body4 from '../Components/Imgs/OnlyBody/Body 4.png'
+import Body5 from '../Components/Imgs/OnlyBody/Body 5.png'
+import Body6 from '../Components/Imgs/OnlyBody/Body 6.png'
+
+
+
 const WhatIsThisProjectAvatar = () => {
   return (
     <>
@@ -28,32 +45,32 @@ const WhatIsThisProjectAvatar = () => {
             <div className="home_bored_bunny_inner LightBlue">
               <div className="home_bored_bunny_img">
                 <img
-                  src={H1}
+                  src={Body1}
                   title=""
                   alt=""
-                  width="80%"
-                  className="hover_show"
-                />
-                <img
-                  src={H1A}
-                  title=""
-                  alt=""
-                  width="80%"
+                  width="100%"
                   className="hover_hide"
+                  />
+                <img
+                  src={FullBody1}
+                  title=""
+                  alt=""
+                  width="100%"
+                  className="hover_show"
                 />
               </div>
             </div>
             <div className="home_bored_bunny_inner Blue">
               <div className="home_bored_bunny_img">
                 <img
-                  src={H2}
+                  src={FullBody2}
                   title=""
                   alt=""
                   width="80%"
                   className="hover_show"
                 />
                 <img
-                  src={H2A}
+                  src={Body2}
                   title=""
                   alt=""
                   width="80%"
@@ -64,14 +81,14 @@ const WhatIsThisProjectAvatar = () => {
             <div className="home_bored_bunny_inner LightBlue">
               <div className="home_bored_bunny_img">
                 <img
-                  src={H3}
+                  src={FullBody3}
                   title=""
                   alt=""
                   width="80%"
                   className="hover_show"
                 />
                 <img
-                  src={H3A}
+                  src={Body3}
                   title=""
                   alt=""
                   width="80%"
@@ -82,14 +99,14 @@ const WhatIsThisProjectAvatar = () => {
             <div className="home_bored_bunny_inner Blue">
               <div className="home_bored_bunny_img">
                 <img
-                  src={H4}
+                  src={FullBody4}
                   title=""
                   alt=""
                   width="80%"
                   className="hover_show"
                 />
                 <img
-                  src={H4A}
+                  src={Body4}
                   title=""
                   alt=""
                   width="80%"
@@ -100,14 +117,14 @@ const WhatIsThisProjectAvatar = () => {
             <div className="home_bored_bunny_inner LightBlue">
               <div className="home_bored_bunny_img">
                 <img
-                  src={H1}
+                  src={FullBody5}
                   title=""
                   alt=""
                   width="80%"
                   className="hover_show"
                 />
                 <img
-                  src={H1A}
+                  src={Body5}
                   title=""
                   alt=""
                   width="80%"
@@ -118,14 +135,14 @@ const WhatIsThisProjectAvatar = () => {
             <div className="home_bored_bunny_inner Blue">
               <div className="home_bored_bunny_img">
                 <img
-                  src={H2}
+                  src={FullBody6}
                   title=""
                   alt=""
                   width="80%"
                   className="hover_show"
                 />
                 <img
-                  src={H2A}
+                  src={Body6}
                   title=""
                   alt=""
                   width="80%"
