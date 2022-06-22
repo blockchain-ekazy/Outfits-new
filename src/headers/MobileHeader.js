@@ -13,7 +13,6 @@ function MobileHeader() {
         </label>
 
         <nav>
-          
           <div>
             <img src={LogoIMg} className="w-50"></img>
             {/* <a className="Head" href="#">
@@ -26,25 +25,44 @@ function MobileHeader() {
           </div>
           <ul className="LI">
             <li>
-            <a href="#home" className="NavTxtLeft">HOME</a>
+              <a href="#home" className="NavTxtLeft">
+                HOME
+              </a>
             </li>
             <li>
-            <a href="#intro" className="NavTxtLeft">What is WoO?</a>
+              <a href="#intro" className="NavTxtLeft">
+                What is WoO?
+              </a>
             </li>
             <li>
-            <a href="#benefits" className="NavTxtLeft">Claim Body</a>
+              <a
+                href="#benefits"
+                data-toggle="modal"
+                data-target="#mintModal"
+                className="NavTxtLeft"
+              >
+                Claim Body
+              </a>
             </li>
             <li>
-            <a href="#faq" className="NavTxtLeft">FAQ</a>
+              <a href="#faq" className="NavTxtLeft">
+                FAQ
+              </a>
             </li>
             <li>
-            <a href="#roadmap" className="NavTxtRight">Mint Outfit</a>
+              <a href="#roadmap" className="NavTxtRight">
+                Mint Outfit
+              </a>
             </li>
             <li>
-            <a href="#goals" className="NavTxtRight">Mission+ Future</a>
+              <a href="#goals" className="NavTxtRight">
+                Mission+ Future
+              </a>
             </li>
             <li>
-            <a href="#team" className="NavTxtRight">Allstar Team</a>
+              <a href="#team" className="NavTxtRight">
+                Allstar Team
+              </a>
             </li>
             <li>
               <a href="" target="blank">
@@ -54,12 +72,12 @@ function MobileHeader() {
           </ul>
         </nav>
         <div className="ml-auto">
-            <img
-              src={LogoIMg}
-              style={{ marginLeft: "auto" }}
-              className="d-block w-50 p-2 "
-              ></img>
-          </div>
+          <img
+            src={LogoIMg}
+            style={{ marginLeft: "auto" }}
+            className="d-block w-50 p-2 "
+          ></img>
+        </div>
       </header>
     </>
     // <header className="mobile_header">

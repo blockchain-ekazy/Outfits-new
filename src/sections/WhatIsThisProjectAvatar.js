@@ -143,33 +143,28 @@ const WhatIsThisProjectAvatar = () => {
         <div className="container py-3">
           <div className="row">
             <div className="col-md-6">
-            <a href="#intro" style={{ cursor: "pointer", textDecoration:"none" }}>
-                <h3 className="text-white ">
-                  {" "}
-                  <span className="WorldddB"> Claim </span>
-                  <span
-                    className="font-weight-bold"
-                    style={{ fontSize: "60px" }}
-                  >
-                    Body
-                  </span>{" "}
-                </h3>
-              </a>
-            </div>
-            <div className="col-md-6">
-                  <a href="#intro" style={{ cursor: "pointer", textDecoration:"none" }}>
-              <h3 className="text-white">
+                <a style={{cursor:"pointer"}}>
+              <h3 className="text-white ">
+
                 {" "}
-                <span className="WorldddB">
-                  {" "}
-                    {" "}
-                    Mint 
-                </span><span> </span>
+                <span className="WorldddB"> Claim </span>
                 <span className="font-weight-bold" style={{ fontSize: "60px" }}>
-                   Outfit
+                  Body
                 </span>{" "}
               </h3>
-                  </a>{" "}
+                </a>
+            </div>
+            <div className="col-md-6">
+            <a id="intro" style={{cursor:"pointer"}}>
+
+              <h3 className="text-white">
+                {" "}
+                <span className="WorldddB"> Mint </span>
+                <span className="font-weight-bold" style={{ fontSize: "60px" }}>
+                  Outfit
+                </span>{" "}{" "}
+              </h3>
+            </a>
             </div>
           </div>
         </div>

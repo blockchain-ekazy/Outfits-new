@@ -7,14 +7,10 @@ import ImgD from "../Components/Imgs/1x/Full BOdy/head4.PNG";
 
 const HomeBanner = () => {
   return (
-    <>
-    <a id="intro">
-      
-    </a>
     <div
-    className="home_banner HeadHome bg-overlay"
-    id="home"
-    style={{ backgroundColor: "#1e2d5b" }}
+      className="home_banner HeadHome bg-overlay"
+      id="home"
+      style={{ backgroundColor: "#1e2d5b" }}
     >
       <a id="home"></a>
       <div className="hidden-xs">
@@ -36,12 +32,16 @@ const HomeBanner = () => {
             metaverse
           </h5>
           <h3>
-          World OF   <em>Outfits</em>
+            World OF <em>Outfits</em>
           </h3>
           <p>To get started, first claim a body, then mint an outfit</p>
           <div className="btn_flex">
             <div>
-              <button className="bottom-right mx-2 buttonBlue my-2">
+              <button
+                className="bottom-right mx-2 buttonBlue my-2"
+                data-toggle="modal"
+                data-target="#mintModal"
+              >
                 {" "}
                 Claim Body <br /> Free + Gas
               </button>
@@ -96,7 +96,6 @@ const HomeBanner = () => {
         <img src={ImgD} title="" alt="" className="imageA" />
       </div> */}
     </div>
-    </>
   );
 };
 export default HomeBanner;
