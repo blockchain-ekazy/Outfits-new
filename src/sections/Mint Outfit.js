@@ -178,7 +178,7 @@ const MintOutfit = () => {
             </div>
             <button
               onClick={loadweb3}
-              className="bottom-right buttonPink w-100 py-3 px-0 mb-3"
+              className="bottom-right-selected buttonPink w-100 py-3 px-0 mb-3"
             >
               Mint
             </button>

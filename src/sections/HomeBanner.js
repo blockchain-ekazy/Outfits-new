@@ -37,32 +37,22 @@ const HomeBanner = () => {
           <p>To get started, first claim a body, then mint an outfit</p>
           <div className="btn_flex">
             <div>
-              <button
-                className="bottom-right mx-2 buttonBlue my-2"
+              <a
+                className="text-white bottom-right mx-2 buttonBlue my-2"
                 data-toggle="modal"
                 data-target="#mintModal"
               >
-                {" "}
                 Claim Body <br /> Free + Gas
-              </button>
-            </div>
-            {/* <div className="btn_flex_inner p-0">
-              <a href="" className=" py-2 btn ">
-                <img src="img/btn_img2.png" title="" alt=""/>
-                Claim Body <br /> Free + Gas{" "}
               </a>
-            </div> */}
+            </div>
             <div>
-              <button className="bottom-right mx-2 buttonPink">
+              <a
+                href="/mint-outfit"
+                className="text-white bottom-right mx-2 buttonPink"
+              >
                 Mint Outfit <br /> .05 eth + gas{" "}
-              </button>
-            </div>
-            {/* <div className="btn_flex_inner">
-              <a href="" className="btn py-2">
-                <img src="img/btn_img2.png" title="" alt=""/>
-                Mint Outfits <br /> .05 eth + gas{" "}
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -88,13 +78,6 @@ const HomeBanner = () => {
       >
         <img src={ImgB} title="" alt="" className="imageA" />
       </div>
-      {/* <div
-        className="banner_icon banner_icon3 iijjhh"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-      >
-        <img src={ImgD} title="" alt="" className="imageA" />
-      </div> */}
     </div>
   );
 };

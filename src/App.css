@@ -3942,6 +3942,11 @@ p {
   position: absolute;
   right: 5px;
   top: 5px;
+  z-index: 999999999;
+}
+.offcanvas-menu {
+  z-index: 9999;
+  position: relative;
 }
 .previewimg {
   height: 550px;
@@ -3993,4 +3998,18 @@ p {
 }
 .outfit_selection label:hover {
   transform: scale(1.05);
+}
+.bottom-right-selected:before {
+  border-radius: 1000px;
+  top: 0;
+  bottom: 0;
+  right: -120%;
+  transform: skewX(-45deg);
+  width: 240%;
+}
+#mintModal {
+  z-index: 99999;
+}
+a {
+  text-decoration: none !important;
 }

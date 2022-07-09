@@ -67,19 +67,19 @@ function MainHeader() {
       >
         <ul className="text-center">
           <li>
-            <a href="#home " className="NavTxtLeft">
+            <a href="/#home " className="NavTxtLeft">
               HOME
             </a>
           </li>
           <li>
-            <a href="#intro" className="NavTxtLeft">
+            <a href="/#intro" className="NavTxtLeft">
               What is WoO?
             </a>
           </li>
 
           <li>
             <a
-              href="#benefits"
+              href="/#benefits"
               data-toggle="modal"
               data-target="#mintModal"
               className="NavTxtLeft"
@@ -88,7 +88,7 @@ function MainHeader() {
             </a>
           </li>
           <li>
-            <a href="#faq" className="NavTxtLeft">
+            <a href="/#faq" className="NavTxtLeft">
               FAQ
             </a>
           </li>
@@ -101,87 +101,24 @@ function MainHeader() {
           </span>
           {/* <div> */}
           <li>
-            <a href="#roadmap" className="NavTxtRight">
+            <a href="/mint-outfit" className="NavTxtRight">
               Mint Outfit
             </a>
           </li>
 
           <li>
-            <a href="#goals" className="NavTxtRight">
+            <a href="/#goals" className="NavTxtRight">
               Mission+ Future
             </a>
           </li>
           <li>
-            <a href="#team" className="NavTxtRight">
+            <a href="/#team" className="NavTxtRight">
               Allstar Team
             </a>
           </li>
-          {/* </div> */}
         </ul>
       </nav>
     </>
-    // <header className="header_main desktop_header">
-    //     <div className="container">
-    //         <div className="header_inner">
-    //             <div className="header_flex">
-    //                 <div className="header_menu header_menu1">
-    //                     <ul>
-    //                         <li><a href="#home">HOME</a></li>
-    //                     <li><a href="#intro">What is WoO?</a></li>
-
-    //                         <li><a href="#benefits">Claim Body</a></li>
-    //                         <li><a href="#faq">FAQ</a></li>
-
-    //                     </ul>
-    //                 </div>
-    //                 <div className="header_logo ">
-    //                     <a href="/" className=" heder_logo">
-    //                         <h1 className='text-white py-5'>World of Outfits</h1>
-    //                         {/* <img src={OSeaImg} className=' p-0' width='150px' alt="logo"/> */}
-    //                     </a>
-    //                 </div>
-    //                 <div className="header_menu header_menu2">
-    //                     <ul>
-    //                     <li><a href="#roadmap">Mint Outfit</a></li>
-
-    //                         <li><a href="#goals">Mission+ Future</a></li>
-    //                         <li><a href="#team">Allstar Team</a></li>
-    //                         <li>
-    //                             {/* <a href="https://opensea.io/collection/bored-bunny--nft" className="btn">
-    //                                 <img src={OSeaImg} className='Limg ' title="" alt=""/>
-    //                                 Buy On Opensea
-    //                             </a> */}
-    //                         </li>
-    //                     </ul>
-    //                 </div>
-    //             </div>
-    //             {/* <div className="social_menu">
-    //                 <ul>
-    //                     <li>
-    //                         <a href="https://twitter.com/BoredBunnyNFT">
-    //                             <img src="img/social1.png" title="" alt=""/>
-    //                         </a>
-    //                     </li>
-    //                     <li>
-    //                         <a href="https://discord.gg/boredbunny">
-    //                             <img src="img/social2.png" title="" alt=""/>
-    //                         </a>
-    //                     </li>
-    //                     <li>
-    //                         <a href="https://opensea.io/collection/bored-bunny--nft">
-    //                             <img src="img/social3.png" title="" alt=""/>
-    //                         </a>
-    //                     </li>
-    //                     <li>
-    //                         <a href="https://instagram.com/boredbunnynft">
-    //                             <img src="img/social4.png" title="" alt=""/>
-    //                         </a>
-    //                     </li>
-    //                 </ul>
-    //             </div> */}
-    //         </div>
-    //     </div>
-    // </header>
   );
 }
 

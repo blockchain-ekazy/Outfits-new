@@ -1,15 +1,13 @@
 import React from "react";
 
-import Image1 from '../Components/Imgs/Body/Artboard 1.png'
-import Image2 from '../Components/Imgs/Body/Artboard 3.png'
-import Image3 from '../Components/Imgs/Body/Artboard 5.png'
-import Image4 from '../Components/Imgs/Body/Artboard 7.png'
-import Image5 from '../Components/Imgs/Body/Artboard 9.png'
-import Image6 from '../Components/Imgs/Body/Artboard 11.png'
-import Image7 from '../Components/Imgs/Body/Artboard 13.png'
-import Image8 from '../Components/Imgs/Body/Artboard 15.png'
-
-
+import Image1 from "../Components/Imgs/Body/Artboard 1.png";
+import Image2 from "../Components/Imgs/Body/Artboard 3.png";
+import Image3 from "../Components/Imgs/Body/Artboard 5.png";
+import Image4 from "../Components/Imgs/Body/Artboard 7.png";
+import Image5 from "../Components/Imgs/Body/Artboard 9.png";
+import Image6 from "../Components/Imgs/Body/Artboard 11.png";
+import Image7 from "../Components/Imgs/Body/Artboard 13.png";
+import Image8 from "../Components/Imgs/Body/Artboard 15.png";
 
 const AboutProject = () => {
   return (
@@ -44,7 +42,13 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img className="ml-3 ml-md-0" src={Image1} title="" alt="" width="400%"  />
+                  <img
+                    className="ml-3 ml-md-0"
+                    src={Image1}
+                    title=""
+                    alt=""
+                    width="400%"
+                  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Visionary</h3> */}
@@ -61,7 +65,13 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img className="ml-3 ml-md-0" src={Image2} title="" alt="" width="400%"  />
+                  <img
+                    className="ml-3 ml-md-0"
+                    src={Image2}
+                    title=""
+                    alt=""
+                    width="400%"
+                  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Jelena</h3> */}
@@ -78,7 +88,13 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img className="ml-3 ml-md-0" src={Image3} title="" alt="" width="400%"  />
+                  <img
+                    className="ml-3 ml-md-0"
+                    src={Image3}
+                    title=""
+                    alt=""
+                    width="400%"
+                  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Dreamer</h3> */}
@@ -95,7 +111,13 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img className="ml-3 ml-md-0" src={Image4} title="" alt="" width="400%"  />
+                  <img
+                    className="ml-3 ml-md-0"
+                    src={Image4}
+                    title=""
+                    alt=""
+                    width="400%"
+                  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>Collab</h3> */}
@@ -112,7 +134,13 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img className="ml-3 ml-md-0" src={Image5} title="" alt="" width="400%"  />
+                  <img
+                    className="ml-3 ml-md-0"
+                    src={Image5}
+                    title=""
+                    alt=""
+                    width="400%"
+                  />
                 </div>
                 <div className="home_meet_team_text">
                   {/* <h3>sabirpro</h3>
@@ -129,11 +157,13 @@ const AboutProject = () => {
                 aria-hidden="true"
               >
                 <div className="home_meet_team_img">
-                  <img className="ml-3 ml-md-0" src={Image6} title="" alt="" width="400%"  />
-                </div>
-                <div className="home_meet_team_text">
-                  {/* <h3>Robyan</h3> */}
-                  {/* <h4>CO-FOUNDER</h4> */}
+                  <img
+                    className="ml-3 ml-md-0"
+                    src={Image6}
+                    title=""
+                    alt=""
+                    width="400%"
+                  />
                 </div>
               </div>
             </div>
@@ -153,23 +183,33 @@ const AboutProject = () => {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="hidden-xs text-center" style={{fontSize:"60px"}}>
-              {/* After You Have A <em> Body</em> Then */}
-              ONCE YOU HAVE A BODY<br/><em> MINT</em> AN OUTFIT
+              <h3
+                className="hidden-xs text-center"
+                style={{ fontSize: "60px" }}
+              >
+                {/* After You Have A <em> Body</em> Then */}
+                ONCE YOU HAVE A BODY
+                <br />
+                <em> MINT</em> AN OUTFIT
               </h3>
-              
+
               <div className="text-center my-3">
-                <button className="bottom-right mx-2 my-3 buttonPink">
-                  {" "}
-                  Mint an Outfit<br />.05 eth + Gas
-                </button>
+                <a
+                  href="/mint-outfit"
+                  className="text-white bottom-right mx-2 buttonPink"
+                >
+                  Mint Outfit <br /> .05 eth + gas{" "}
+                </a>
               </div>
 
               <h5 className=" text-white">
                 {" "}
                 {/* Once you have a body Mint an Outfit" After you have claimed your body, mint an outfit. All outfits and accessories have been designed by actual fashion designers               */}
-                10,000 different outfits created from a massive assortment of different tops, pants, jackets, dresses, swimsuits, skirts, socks, shoes, jewelry, and accessories (e.g. think designer handbags).
-                </h5>
+                10,000 different outfits created from a massive assortment of
+                different tops, pants, jackets, dresses, swimsuits, skirts,
+                socks, shoes, jewelry, and accessories (e.g. think designer
+                handbags).
+              </h5>
 
               {/* <h3
                 className=" font-weight-bold text-white "
@@ -189,10 +229,9 @@ const AboutProject = () => {
                 </a> */}
             </div>
           </div>
-          
-      {/* <h3 className="mt-5  text-center text-white">Borows outfits</h3> */}
-        </div>
 
+          {/* <h3 className="mt-5  text-center text-white">Borows outfits</h3> */}
+        </div>
       </div>
     </div>
   );
