@@ -3076,7 +3076,7 @@ h5 {
     margin: 0 auto;
   }
   .home_what {
-    padding: 10px 0 90px;
+    /* padding: 10px 0 90px; */
   }
 
   .benifit_round_img {
@@ -3955,4 +3955,42 @@ p {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.previewimg_outfit {
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid white;
+  position: absolute;
+}
+.previewBox {
+  position: relative !important;
+  height: 70vh;
+  width: 100%;
+}
+.previewBox img {
+  max-width: 100%;
+}
+.outfit_selection input {
+  display: none;
+}
+.outfit_selection label {
+  margin: 2px 4px;
+}
+.outfit_selection input:checked + span::before {
+  width: 240%;
+}
+.outfit_selection input + span::before {
+  border-radius: 1000px;
+  top: 0;
+  bottom: 0;
+  right: -120%;
+  transform: skewX(-45deg);
+  width: 100%;
+}
+.outfit_selection label {
+  transition-duration: 0.1s;
+}
+.outfit_selection label:hover {
+  transform: scale(1.05);
 }

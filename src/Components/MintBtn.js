@@ -9,9 +9,9 @@ import axios from "axios";
 
 export default function MintButton() {
   const REACT_APP_CONTRACT_ADDRESS =
-    "0xAF35088cBf9F973C8143Df033f72F7697eca30be";
+    "0x59A7c7d9ef2f72e3916Bdd266A3494eE04e6Caa7";
   const REACT_APP_CONTRACT_ADDRESS_WOW =
-    "0x2f6e2c60c6D4c34B37d8834b9Ee7dC181dFe98bB";
+    "0x34E0473bC128aC922daDc1dDACD421a679a838Ae";
   const SELECTEDNETWORK = "4";
   const SELECTEDNETWORKNAME = "Ethereum";
 
@@ -38,13 +38,13 @@ export default function MintButton() {
 
       ct = new web3.eth.Contract(abi, REACT_APP_CONTRACT_ADDRESS);
 
-      let p = await ct.methods.price().call();
-      let b = await web3.eth.getBalance(m);
+      // let p = await ct.methods.price().call();
+      // let b = await web3.eth.getBalance(m);
 
-      if (Number(b) < Number(p)) {
-        toast.error("Insufficient ETH balance!");
-        return;
-      }
+      // if (Number(b) < Number(p)) {
+      //   toast.error("Insufficient ETH balance!");
+      //   return;
+      // }
 
       let tId = document.getElementById("WOWID").value;
 
@@ -55,7 +55,7 @@ export default function MintButton() {
 
       try {
         if ((await ct_WOW.methods.ownerOf(tId).call()) != m) {
-          toast.error("WOW #" + tId + " not found in " + m);
+          toast.error("WOW #" + tId + " not found in connected Wallet" + m);
           return;
         }
       } catch (err) {
@@ -63,7 +63,7 @@ export default function MintButton() {
         return;
       }
 
-      await toast.promise(ct.methods.mint(tId).send({ from: m, value: p }), {
+      await toast.promise(ct.methods.mint(tId).send({ from: m }), {
         pending: "Mint in Progress!!",
         success: "Mint Success!!",
         error: "Mint Failed!!",
@@ -110,7 +110,7 @@ export default function MintButton() {
         </div>
         <div className="col-md-7 what_inner_text py-0">
           <h3>
-            Claim a body <em>for your WOW</em>
+            Claim a body <em>for your WoW</em>
           </h3>
           <input
             id="WOWID"
