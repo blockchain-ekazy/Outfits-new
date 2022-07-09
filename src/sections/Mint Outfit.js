@@ -86,21 +86,29 @@ const MintOutfit = () => {
         return;
       }
 
-      await toast
-        .promise(ct.methods.mint_outfit(tId).send({ from: m, value: p }), {
-          pending: "Mint in Progress!!",
-          success: "Mint Success!!",
-          error: "Mint Failed!!",
-        })
-        .then(async () => {
-          let s;
-          document.getElementsByName("selected_outfit").forEach((c, i) => {
-            if (c.checked) s = c.value;
-          });
-          await axios
-            .get(`https://outfits-server.herokuapp.com/api/render/${tId}/${s}`)
-            .then((res) => console.log(res.data));
-        });
+      let s;
+      document.getElementsByName("selected_outfit").forEach((c, i) => {
+        if (c.checked) s = c.value;
+      });
+      await axios
+        .get(`https://outfits-server.herokuapp.com/api/render/${tId}/${s}`)
+        .then((res) => console.log(res.data));
+
+      // await toast
+      //   .promise(ct.methods.mint_outfit(tId).send({ from: m, value: p }), {
+      //     pending: "Mint in Progress!!",
+      //     success: "Mint Success!!",
+      //     error: "Mint Failed!!",
+      //   })
+      //   .then(async () => {
+      //     let s;
+      //     document.getElementsByName("selected_outfit").forEach((c, i) => {
+      //       if (c.checked) s = c.value;
+      //     });
+      //     await axios
+      //       .get(`https://outfits-server.herokuapp.com/api/render/${tId}/${s}`)
+      //       .then((res) => console.log(res.data));
+      //   });
     } else {
       toast.error(
         "Non-Ethereum browser detected. Please use a crypto wallet such as MetaMask!"
