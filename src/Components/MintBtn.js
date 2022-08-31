@@ -9,7 +9,7 @@ import axios from "axios";
 
 export default function MintButton() {
   const REACT_APP_CONTRACT_ADDRESS =
-    "0x59A7c7d9ef2f72e3916Bdd266A3494eE04e6Caa7";
+    "0x2846573b8b87a034Fc1b42466367400b9F51A83a";
   const REACT_APP_CONTRACT_ADDRESS_WOW =
     "0x34E0473bC128aC922daDc1dDACD421a679a838Ae";
   const SELECTEDNETWORK = "4";
@@ -36,16 +36,6 @@ export default function MintButton() {
         return false;
       }
 
-      ct = new web3.eth.Contract(abi, REACT_APP_CONTRACT_ADDRESS);
-
-      // let p = await ct.methods.price().call();
-      // let b = await web3.eth.getBalance(m);
-
-      // if (Number(b) < Number(p)) {
-      //   toast.error("Insufficient ETH balance!");
-      //   return;
-      // }
-
       let tId = document.getElementById("WOWID").value;
 
       const ct_WOW = new web3.eth.Contract(
@@ -62,6 +52,16 @@ export default function MintButton() {
         toast.error("WOW #" + tId + " does not exist");
         return;
       }
+
+      ct = new web3.eth.Contract(abi, REACT_APP_CONTRACT_ADDRESS);
+
+      // let p = await ct.methods.price().call();
+      // let b = await web3.eth.getBalance(m);
+
+      // if (Number(b) < Number(p)) {
+      //   toast.error("Insufficient ETH balance!");
+      //   return;
+      // }
 
       await toast.promise(ct.methods.mint(tId).send({ from: m }), {
         pending: "Mint in Progress!!",
@@ -81,9 +81,7 @@ export default function MintButton() {
 
     axios
       .get(
-        "https://worldofoutfits.com/collection/unnamed-" +
-          e.target.value +
-          ".png",
+        "https://worldofoutfits.com/bodies/unnamed-" + e.target.value + ".png",
         { responseType: "arraybuffer" }
       )
       .then((res) => {

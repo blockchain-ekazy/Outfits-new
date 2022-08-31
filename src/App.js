@@ -23,6 +23,7 @@ import MintButton from "./Components/MintBtn";
 import { ToastContainer } from "react-toastify";
 
 import Div from "../src/Components/Imgs/1x/4.png";
+import MintButton_Extra from "./Components/MintBtn extra";
 
 function App() {
   return (
@@ -115,6 +116,31 @@ function App() {
                 <span aria-hidden="true">&times;</span>
               </button>
               <MintButton />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="mint-extra-Modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-md" role="document">
+          <div class="modal-body">
+            <div class="modal-content LightBlue bg-overlay">
+              <button
+                type="button"
+                class="close text-right mr-1"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <MintButton_Extra />
             </div>
           </div>
         </div>

@@ -60,6 +60,19 @@
         "type": "uint256"
       }
     ],
+    "name": "Exclusive_mint_success",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      }
+    ],
     "name": "Outfit_mint_success",
     "type": "event"
   },
@@ -108,6 +121,19 @@
     "type": "event"
   },
   {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      }
+    ],
+    "name": "mint_success",
+    "type": "event"
+  },
+  {
     "inputs": [],
     "name": "_TOTALSUPPLY",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
@@ -141,6 +167,20 @@
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "extra_id",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "extra_price",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [
       { "internalType": "uint256", "name": "tokenId", "type": "uint256" }
     ],
@@ -169,6 +209,13 @@
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "mintExclusive",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
     "inputs": [
       { "internalType": "uint256", "name": "tokenId", "type": "uint256" }
     ],
@@ -181,6 +228,13 @@
     "inputs": [],
     "name": "name",
     "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "outfit_price",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
@@ -204,13 +258,6 @@
     ],
     "name": "ownerOf",
     "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "price",
-    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
@@ -265,6 +312,15 @@
     "inputs": [
       { "internalType": "uint256", "name": "status_", "type": "uint256" }
     ],
+    "name": "setOutfitStatus",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "status_", "type": "uint256" }
+    ],
     "name": "setStatus",
     "outputs": [],
     "stateMutability": "nonpayable",
@@ -273,6 +329,24 @@
   {
     "inputs": [{ "internalType": "address", "name": "a", "type": "address" }],
     "name": "setWOW",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "_newPrice", "type": "uint256" }
+    ],
+    "name": "setextra_price",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "_newPrice", "type": "uint256" }
+    ],
+    "name": "setoutfit_price",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -304,6 +378,13 @@
     "inputs": [{ "internalType": "uint256", "name": "tId", "type": "uint256" }],
     "name": "tokenURI",
     "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "name": "tokenVersion",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },

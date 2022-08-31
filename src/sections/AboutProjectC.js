@@ -10,6 +10,8 @@ import MCircle from "../Components/Imgs/Capture1-modified.png";
 import Circle1 from "../Components/Imgs/Capture2-modified.png";
 import Circle2 from "../Components/Imgs/Capture3-modified.png";
 import Circle3 from "../Components/Imgs/Capture4-modified.png";
+import Circle4 from "../Components/Imgs/Capture5-modified.png";
+import Circle5 from "../Components/Imgs/Capture6-modified.png";
 
 import Gif from "../Components/Imgs/BodyGif.gif";
 
@@ -68,62 +70,70 @@ const AboutProject = () => {
 
   return (
     <>
-    <div className="Div">
-      <img src={Div}></img>
-    </div>
-    <div className="home_what Pink pt-0" id="intro">
-      
-      <div className="container">
-    <h3 className=" text-cente font-weight-bold text-white">WE WANT EVERYONE TO BE ABLE TO BE A PART OF WORLD OF OUTFITS</h3>
-        <div className="what_flex  row pt-5 align-items-center">
-          <div className="what_inner text-center text-sm-left">
-            <div
-              className="what_inner_text visible-xs"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <h3>
-                <em>Own</em>a WOW?
-              </h3>
-            </div>
-            <div
-              className="what_inner_text"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              <h3 className="hidden-xs" style={{fontSize:"50px"}}>
-              {/* Don't own a <em>WoW </em>    and still want to be part of World of <em>Outfits?</em><br></br>          */}
-              Don't own a <em>WoW </em>? <br/>You can mint one of our WoO heads connected to a blank body here.
-              </h3>
-              {/* <h5 className=" text-white">
+      <div className="Div">
+        <img src={Div}></img>
+      </div>
+      <div className="home_what Pink pt-0" id="intro">
+        <div className="container">
+          <h3 className=" text-cente font-weight-bold text-white">
+            WE WANT EVERYONE TO BE ABLE TO BE A PART OF WORLD OF OUTFITS
+          </h3>
+          <div className="what_flex  row pt-5 align-items-center">
+            <div className="what_inner text-center text-sm-left">
+              <div
+                className="what_inner_text visible-xs"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h3>
+                  <em>Own</em>a WOW?
+                </h3>
+              </div>
+              <div
+                className="what_inner_text"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <h3 className="hidden-xs" style={{ fontSize: "50px" }}>
+                  {/* Don't own a <em>WoW </em>    and still want to be part of World of <em>Outfits?</em><br></br>          */}
+                  Don't own a <em>WoW </em>? <br />
+                  You can mint one of our WoO heads connected to a blank body
+                  here.
+                </h3>
+                {/* <h5 className=" text-white">
               You can then mint one of our WoO heads connected to a body
                </h5> */}
 
-              {/* <h3
+                {/* <h3
                 className=" font-weight-bold text-white "
                 style={{ fontSize: "40px " }}
               >
                 own a <em>wow</em>?
               </h3> */}
 
-              {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
+                {/* <h1 className="text-white text-sm-left text-center ddd"> </h1> */}
 
-              <div>
-                <button className="bottom-right mx-2 my-3 buttonBlue">
-                  {" "}
-                  Mint a Head + Blank Body<br/> .05 eth + gas
-                </button>
-              </div>
+                <div>
+                  <button
+                    className="bottom-right mx-2 my-3 buttonBlue"
+                    data-toggle="modal"
+                    data-target="#mint-extra-Modal"
+                  >
+                    {" "}
+                    Mint a Head + Blank Body
+                    <br /> .05 eth + gas
+                  </button>
+                </div>
 
-              {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
+                {/* <a href="#Mint" className=" btn mx-md-0 mx-auto py-2 mt-3" >
                   <img src="img/btn_img2.png" title="" alt=""/> 
                   <span className="">
                    Claim  Body<br/>
                      .02 eth
                   </span>
                 </a> */}
-            </div>
-            {/* <div
+              </div>
+              {/* <div
               className="what_inner_text visible-xs"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -135,7 +145,7 @@ const AboutProject = () => {
                 You can then mint one of our heads connected to a body
               </h3>
             </div> */}
-            {/* <div
+              {/* <div
               className="what_inner_text asasc"
               data-aos="fade-left"
               data-aos-duration="1000"
@@ -159,46 +169,44 @@ const AboutProject = () => {
                 </a>
               </div>
             </div> */}
+            </div>
+            <div className="what_inner align">
+              <ul className="UlAll d-block mx-auto">
+                <li className="Licd">
+                  <a>
+                    <img className="imgS" src={MCircle} />
+                  </a>
+                </li>
+                <li className="Licd">
+                  <a>
+                    <img className="imgS" src={Circle1} />
+                  </a>
+                </li>
+                <li className="Licd">
+                  <a>
+                    <img className="imgS" src={Circle2} />
+                  </a>
+                </li>
+                <li className="Licd">
+                  <a>
+                    <img className="imgS xx" src={Circle3} />
+                  </a>
+                </li>
+                <li className="Licd">
+                  <a>
+                    <img className="imgS" src={Circle5} />
+                  </a>
+                </li>
+                <li className="Licd">
+                  <a>
+                    <img className="imgS" src={Circle4} />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="what_inner align" >
-            <ul className="UlAll d-block mx-auto">
-              <li className="Licd">
-                <a >
-                  <img className="imgS" src={MCircle} />
-                </a>
-              </li>
-              <li  className="Licd">
-                <a >
-                  <img className="imgS" src={Circle1} />
-                </a>
-              </li>
-              <li  className="Licd">
-                <a >
-                  <img className="imgS" src={Circle2} />
-                </a>
-              </li>
-              <li  className="Licd">
-                <a >
-                  <img className="imgS" src={Circle3} />
-                </a>
-              </li>
-              <li  className="Licd">
-                <a >
-                  <img className="imgS" src={Circle1} />
-                </a>
-              </li>
-              <li className="Licd">
-                <a >
-                  <img className="imgS" src={Circle1} />
-                </a>
-              </li>
-            </ul>
-          </div>
-
-
         </div>
       </div>
-    </div>
     </>
   );
 };

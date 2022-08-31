@@ -10,13 +10,12 @@ import "react-toastify/dist/ReactToastify.css";
 
 const MintOutfit = () => {
   const REACT_APP_CONTRACT_ADDRESS =
-    "0x59A7c7d9ef2f72e3916Bdd266A3494eE04e6Caa7";
+    "0x2846573b8b87a034Fc1b42466367400b9F51A83a";
   const SELECTEDNETWORK = "4";
   const SELECTEDNETWORKNAME = "Ethereum";
 
   const [preview, setPreview] = useState(p);
   const [loading, setloading] = useState(false);
-  const [selected_outfit, setSelected_outfit] = useState();
 
   let ct, web3;
 
@@ -25,7 +24,10 @@ const MintOutfit = () => {
 
     axios
       .get(
-        "https://worldofoutfits.com/bodies/unnamed-" + e.target.value + ".png",
+        "https://worldofoutfits.com/bodies/" +
+          (e.target.value < 10000 ? "unnamed-" : "") +
+          e.target.value +
+          ".png",
         { responseType: "arraybuffer" }
       )
       .then((res) => {
@@ -40,9 +42,9 @@ const MintOutfit = () => {
       });
   };
 
-  const loadoutput = async (id) => {
+  const loadoutput = async (res) => {
     axios
-      .get("https://worldofoutfits.com/collection/unnamed-" + id + ".png", {
+      .get(res, {
         responseType: "arraybuffer",
       })
       .then((res) => {
@@ -74,7 +76,8 @@ const MintOutfit = () => {
 
       ct = new web3.eth.Contract(abi, REACT_APP_CONTRACT_ADDRESS);
 
-      let p = await ct.methods.price().call();
+      let p = await ct.methods.outfit_price().call();
+
       let b = await web3.eth.getBalance(m);
 
       if (Number(b) < Number(p)) {
@@ -86,11 +89,11 @@ const MintOutfit = () => {
 
       try {
         if ((await ct.methods.ownerOf(tId).call()) != m) {
-          toast.error("WOW #" + tId + " not found in connected Wallet");
+          toast.error("WoO #" + tId + " not found in connected Wallet");
           return;
         }
       } catch (err) {
-        toast.error("WOW #" + tId + " does not exist");
+        toast.error("WoO #" + tId + " does not exist");
         return;
       }
 
@@ -103,7 +106,7 @@ const MintOutfit = () => {
         .then(async () => {
           await axios
             .get(`https://outfits-server.herokuapp.com/api/render/${tId}`)
-            .then((res) => loadoutput(tId));
+            .then((res) => loadoutput(res.data));
         });
     } else {
       toast.error(
@@ -143,8 +146,8 @@ const MintOutfit = () => {
                 class="form-control text-center"
                 placeholder="Enter WOW ID"
                 min={0}
-                max={9999}
-                onChange={(e) => loadimage(e)}
+                max={14999}
+                onBlur={(e) => loadimage(e)}
               />
             </div>
           </div>
@@ -163,14 +166,6 @@ const MintOutfit = () => {
                 src={`data:;base64,${preview}`}
                 className="w-100 previewimg_outfit"
               />
-              {selected_outfit ? (
-                <img
-                  src={`./outfits/full/${selected_outfit}.png`}
-                  className="w-100 previewimg_outfit"
-                />
-              ) : (
-                ""
-              )}
               <img
                 src="/loading.gif"
                 className={loading ? "w-25 loading" : "d-none"}
