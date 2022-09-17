@@ -9,10 +9,10 @@ import axios from "axios";
 
 export default function MintButton_Extra() {
   const REACT_APP_CONTRACT_ADDRESS =
-    "0x2846573b8b87a034Fc1b42466367400b9F51A83a";
+    "0xE751EDc9ff09934203847eeE3736f41542Dc3069";
   const REACT_APP_CONTRACT_ADDRESS_WOW =
-    "0x34E0473bC128aC922daDc1dDACD421a679a838Ae";
-  const SELECTEDNETWORK = "4";
+    "0xe785E82358879F061BC3dcAC6f0444462D4b5330";
+  const SELECTEDNETWORK = "1";
   const SELECTEDNETWORKNAME = "Ethereum";
 
   const [loading, setloading] = useState(false);

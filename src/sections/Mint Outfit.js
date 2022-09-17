@@ -10,8 +10,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 const MintOutfit = () => {
   const REACT_APP_CONTRACT_ADDRESS =
-    "0x2846573b8b87a034Fc1b42466367400b9F51A83a";
-  const SELECTEDNETWORK = "4";
+    "0xE751EDc9ff09934203847eeE3736f41542Dc3069";
+  const SELECTEDNETWORK = "1";
   const SELECTEDNETWORKNAME = "Ethereum";
 
   const [preview, setPreview] = useState(p);
