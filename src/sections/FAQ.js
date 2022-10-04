@@ -23,8 +23,8 @@ const FAQ = () => {
                   <div className="panel accordian-para acc-show" id="tab1">
                     <p>
                       {" "}
-                      The official launch date should be around April 20th.
-                      There is a lot of fine tuning happening now.{" "}
+                      The official launch date should is October 1st. There is a
+                      lot of fine tuning happening now.{" "}
                     </p>
                   </div>
                 </div>

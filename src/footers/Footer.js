@@ -18,7 +18,16 @@ const Footer = () => {
                 World Of Outfits
               </h3>
               <p>
-              Follow us on <span><a className="text-primary" href="https://twitter.com/WorldofOutfits">twitter</a></span> to stay tuned for drop date info
+                Follow us on{" "}
+                <span>
+                  <a
+                    className="text-primary"
+                    href="https://twitter.com/WorldofOutfits"
+                  >
+                    twitter
+                  </a>
+                </span>{" "}
+                to stay tuned for drop date info
               </p>
               <div className="footer_btn_flex">
                 {/* <div className="footer_btn_inner">
@@ -27,7 +36,7 @@ const Footer = () => {
                     <span>Twitter</span>
                   </a>
                 </div> */}
-                  <button className="bottom-right mx-2 my-3 buttonBlue">
+                <button className="bottom-right mx-2 my-3 buttonBlue">
                   {" "}
                   <i class="fa-brands  fa-twitter mr-2 "></i>
                   Twitter
@@ -68,18 +77,18 @@ const Footer = () => {
               <h3>
                 <em>Mint</em>
                 <br />
-                April 20
+                Live{" "}
               </h3>
               <button className="bottom-right mx-2 my-3 buttonPink">
-                  {" "}
-                  {/* <img
+                {" "}
+                {/* <img
                     className="mr-3"
                     src="img/btn_img4.png"
                     title=""
                     alt=""
                   /> */}
-                 Buy On OPEN SEA
-                </button>
+                Buy On OPEN SEA
+              </button>
               {/* <div className="footer_position_inner_ticket">
                 <a
                   href="https://opensea.io/collection/bored-bunny--nft"
